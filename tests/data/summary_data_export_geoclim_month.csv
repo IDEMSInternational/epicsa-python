@@ -1,0 +1,1789 @@
+"year","month","station_name","mean_rain"
+1940,"Jan","Niamey_Aero",NA
+1940,"Feb","Niamey_Aero",0
+1940,"Mar","Niamey_Aero",0.174193548387097
+1940,"Apr","Niamey_Aero",NA
+1940,"May","Niamey_Aero",NA
+1940,"Jun","Niamey_Aero",1.31333333333333
+1940,"Jul","Niamey_Aero",5.19032258064516
+1940,"Aug","Niamey_Aero",7.98064516129032
+1940,"Sep","Niamey_Aero",NA
+1940,"Oct","Niamey_Aero",NA
+1940,"Nov","Niamey_Aero",NA
+1940,"Dec","Niamey_Aero",NA
+1941,"Jan","Niamey_Aero",0
+1941,"Feb","Niamey_Aero",NA
+1941,"Mar","Niamey_Aero",0
+1941,"Apr","Niamey_Aero",0.32
+1941,"May","Niamey_Aero",1
+1941,"Jun","Niamey_Aero",4.52666666666667
+1941,"Jul","Niamey_Aero",4.37741935483871
+1941,"Aug","Niamey_Aero",2.42903225806452
+1941,"Sep","Niamey_Aero",NA
+1941,"Oct","Niamey_Aero",NA
+1941,"Nov","Niamey_Aero",0
+1941,"Dec","Niamey_Aero",0
+1942,"Jan","Niamey_Aero",NA
+1942,"Feb","Niamey_Aero",0
+1942,"Mar","Niamey_Aero",0
+1942,"Apr","Niamey_Aero",0.02
+1942,"May","Niamey_Aero",3.68387096774194
+1942,"Jun","Niamey_Aero",1.06
+1942,"Jul","Niamey_Aero",5.51935483870968
+1942,"Aug","Niamey_Aero",6.1741935483871
+1942,"Sep","Niamey_Aero",1.80333333333333
+1942,"Oct","Niamey_Aero",0.451612903225806
+1942,"Nov","Niamey_Aero",0
+1942,"Dec","Niamey_Aero",NA
+1943,"Jan","Niamey_Aero",0
+1943,"Feb","Niamey_Aero",0
+1943,"Mar","Niamey_Aero",0
+1943,"Apr","Niamey_Aero",0.01
+1943,"May","Niamey_Aero",2.33225806451613
+1943,"Jun","Niamey_Aero",1.79
+1943,"Jul","Niamey_Aero",NA
+1943,"Aug","Niamey_Aero",6.2741935483871
+1943,"Sep","Niamey_Aero",5.14333333333333
+1943,"Oct","Niamey_Aero",0
+1943,"Nov","Niamey_Aero",0.0166666666666667
+1943,"Dec","Niamey_Aero",0
+1944,"Jan","Niamey_Aero",NA
+1944,"Feb","Niamey_Aero",0
+1944,"Mar","Niamey_Aero",0
+1944,"Apr","Niamey_Aero",0.0166666666666667
+1944,"May","Niamey_Aero",0
+1944,"Jun","Niamey_Aero",1.99666666666667
+1944,"Jul","Niamey_Aero",NA
+1944,"Aug","Niamey_Aero",5.21612903225806
+1944,"Sep","Niamey_Aero",1.66
+1944,"Oct","Niamey_Aero",NA
+1944,"Nov","Niamey_Aero",0
+1944,"Dec","Niamey_Aero",NA
+1945,"Jan","Agades",NA
+1945,"Jan","Birni N'Konni",NA
+1945,"Jan","Niamey_Aero",0
+1945,"Jan","Zinder",0
+1945,"Feb","Agades",NA
+1945,"Feb","Birni N'Konni",0
+1945,"Feb","Niamey_Aero",0
+1945,"Feb","Zinder",0
+1945,"Mar","Agades",NA
+1945,"Mar","Birni N'Konni",0
+1945,"Mar","Niamey_Aero",0
+1945,"Mar","Zinder",NA
+1945,"Apr","Agades",NA
+1945,"Apr","Birni N'Konni",0
+1945,"Apr","Niamey_Aero",0.00666666666666667
+1945,"Apr","Zinder",0.1
+1945,"May","Agades",0
+1945,"May","Birni N'Konni",0.154838709677419
+1945,"May","Niamey_Aero",0.67741935483871
+1945,"May","Zinder",1.00322580645161
+1945,"Jun","Agades",0.233333333333333
+1945,"Jun","Birni N'Konni",1.36333333333333
+1945,"Jun","Niamey_Aero",5.34666666666667
+1945,"Jun","Zinder",0.753333333333333
+1945,"Jul","Agades",1.61290322580645
+1945,"Jul","Birni N'Konni",5.03870967741936
+1945,"Jul","Niamey_Aero",2.82903225806452
+1945,"Jul","Zinder",2.65806451612903
+1945,"Aug","Agades",5.37096774193548
+1945,"Aug","Birni N'Konni",9.74516129032258
+1945,"Aug","Niamey_Aero",7.26451612903226
+1945,"Aug","Zinder",10.9161290322581
+1945,"Sep","Agades",0
+1945,"Sep","Birni N'Konni",6.84666666666667
+1945,"Sep","Niamey_Aero",4.26
+1945,"Sep","Zinder",1.68666666666667
+1945,"Oct","Agades",0
+1945,"Oct","Birni N'Konni",0.216129032258065
+1945,"Oct","Niamey_Aero",0.241935483870968
+1945,"Oct","Zinder",0.109677419354839
+1945,"Nov","Agades",NA
+1945,"Nov","Birni N'Konni",0
+1945,"Nov","Niamey_Aero",0
+1945,"Nov","Zinder",0
+1945,"Dec","Agades",NA
+1945,"Dec","Birni N'Konni",0
+1945,"Dec","Niamey_Aero",0
+1945,"Dec","Zinder",0
+1946,"Jan","Agades",NA
+1946,"Jan","Birni N'Konni",0
+1946,"Jan","Niamey_Aero",0
+1946,"Jan","Zinder",0
+1946,"Feb","Agades",0
+1946,"Feb","Birni N'Konni",0
+1946,"Feb","Niamey_Aero",0
+1946,"Feb","Zinder",0
+1946,"Mar","Agades",0
+1946,"Mar","Birni N'Konni",0
+1946,"Mar","Niamey_Aero",0
+1946,"Mar","Zinder",0
+1946,"Apr","Agades",0
+1946,"Apr","Birni N'Konni",0
+1946,"Apr","Niamey_Aero",0
+1946,"Apr","Zinder",0
+1946,"May","Agades",0.0129032258064516
+1946,"May","Birni N'Konni",0.874193548387097
+1946,"May","Niamey_Aero",0.032258064516129
+1946,"May","Zinder",1.69677419354839
+1946,"Jun","Agades",0.0566666666666667
+1946,"Jun","Birni N'Konni",5.3
+1946,"Jun","Niamey_Aero",4.01666666666667
+1946,"Jun","Zinder",2.77666666666667
+1946,"Jul","Agades",1.70967741935484
+1946,"Jul","Birni N'Konni",NA
+1946,"Jul","Niamey_Aero",6.86129032258065
+1946,"Jul","Zinder",6.8258064516129
+1946,"Aug","Agades",2.49677419354839
+1946,"Aug","Birni N'Konni",8.82903225806452
+1946,"Aug","Niamey_Aero",4.89677419354839
+1946,"Aug","Zinder",10.3870967741935
+1946,"Sep","Agades",0.216666666666667
+1946,"Sep","Birni N'Konni",4.10333333333333
+1946,"Sep","Niamey_Aero",6.29666666666667
+1946,"Sep","Zinder",3.79333333333333
+1946,"Oct","Agades",0.0193548387096774
+1946,"Oct","Birni N'Konni",0.616129032258065
+1946,"Oct","Niamey_Aero",1.62258064516129
+1946,"Oct","Zinder",0.548387096774194
+1946,"Nov","Agades",0
+1946,"Nov","Birni N'Konni",0
+1946,"Nov","Niamey_Aero",0
+1946,"Nov","Zinder",0
+1946,"Dec","Agades",0
+1946,"Dec","Birni N'Konni",0
+1946,"Dec","Niamey_Aero",0
+1946,"Dec","Zinder",0
+1947,"Jan","Agades",0
+1947,"Jan","Birni N'Konni",0
+1947,"Jan","Niamey_Aero",0
+1947,"Jan","Zinder",0
+1947,"Feb","Agades",0
+1947,"Feb","Birni N'Konni",0
+1947,"Feb","Niamey_Aero",0
+1947,"Feb","Zinder",0
+1947,"Mar","Agades",0
+1947,"Mar","Birni N'Konni",0
+1947,"Mar","Niamey_Aero",0
+1947,"Mar","Zinder",0
+1947,"Apr","Agades",0
+1947,"Apr","Birni N'Konni",0
+1947,"Apr","Niamey_Aero",0.00333333333333333
+1947,"Apr","Zinder",0
+1947,"May","Agades",0
+1947,"May","Birni N'Konni",0.161290322580645
+1947,"May","Niamey_Aero",0.338709677419355
+1947,"May","Zinder",0.148387096774194
+1947,"Jun","Agades",0.296666666666667
+1947,"Jun","Birni N'Konni",1.86
+1947,"Jun","Niamey_Aero",4.00333333333333
+1947,"Jun","Zinder",1.39
+1947,"Jul","Agades",2.74193548387097
+1947,"Jul","Birni N'Konni",4.49354838709677
+1947,"Jul","Niamey_Aero",1.32903225806452
+1947,"Jul","Zinder",6.22903225806452
+1947,"Aug","Agades",5.26774193548387
+1947,"Aug","Birni N'Konni",6.16774193548387
+1947,"Aug","Niamey_Aero",5.38064516129032
+1947,"Aug","Zinder",5.63548387096774
+1947,"Sep","Agades",0.44
+1947,"Sep","Birni N'Konni",4.13666666666667
+1947,"Sep","Niamey_Aero",2.31333333333333
+1947,"Sep","Zinder",1.55666666666667
+1947,"Oct","Agades",1.94838709677419
+1947,"Oct","Birni N'Konni",0
+1947,"Oct","Niamey_Aero",0.4
+1947,"Oct","Zinder",0.280645161290323
+1947,"Nov","Agades",0
+1947,"Nov","Birni N'Konni",0
+1947,"Nov","Niamey_Aero",0.373333333333333
+1947,"Nov","Zinder",0
+1947,"Dec","Agades",0
+1947,"Dec","Birni N'Konni",0
+1947,"Dec","Niamey_Aero",0
+1947,"Dec","Zinder",0
+1948,"Jan","Agades",0
+1948,"Jan","Birni N'Konni",0
+1948,"Jan","Niamey_Aero",0
+1948,"Jan","Zinder",0
+1948,"Feb","Agades",0
+1948,"Feb","Birni N'Konni",0
+1948,"Feb","Niamey_Aero",0
+1948,"Feb","Zinder",0
+1948,"Mar","Agades",0
+1948,"Mar","Birni N'Konni",0
+1948,"Mar","Niamey_Aero",0
+1948,"Mar","Zinder",0
+1948,"Apr","Agades",0.173333333333333
+1948,"Apr","Birni N'Konni",0.343333333333333
+1948,"Apr","Niamey_Aero",0.53
+1948,"Apr","Zinder",0.686666666666667
+1948,"May","Agades",0.0161290322580645
+1948,"May","Birni N'Konni",1.18387096774194
+1948,"May","Niamey_Aero",0.7
+1948,"May","Zinder",0.367741935483871
+1948,"Jun","Agades",0.0766666666666667
+1948,"Jun","Birni N'Konni",2.10666666666667
+1948,"Jun","Niamey_Aero",3.51333333333333
+1948,"Jun","Zinder",1.16
+1948,"Jul","Agades",0.341935483870968
+1948,"Jul","Birni N'Konni",4.53870967741936
+1948,"Jul","Niamey_Aero",5.08387096774194
+1948,"Jul","Zinder",4.13225806451613
+1948,"Aug","Agades",1.00645161290323
+1948,"Aug","Birni N'Konni",5.74838709677419
+1948,"Aug","Niamey_Aero",7.08709677419355
+1948,"Aug","Zinder",4.62258064516129
+1948,"Sep","Agades",0.166666666666667
+1948,"Sep","Birni N'Konni",1.73
+1948,"Sep","Niamey_Aero",2.35
+1948,"Sep","Zinder",1.10666666666667
+1948,"Oct","Agades",0
+1948,"Oct","Birni N'Konni",0.0225806451612903
+1948,"Oct","Niamey_Aero",0.0258064516129032
+1948,"Oct","Zinder",0
+1948,"Nov","Agades",0
+1948,"Nov","Birni N'Konni",0
+1948,"Nov","Niamey_Aero",0
+1948,"Nov","Zinder",0
+1948,"Dec","Agades",0
+1948,"Dec","Birni N'Konni",0
+1948,"Dec","Niamey_Aero",0
+1948,"Dec","Zinder",0
+1949,"Jan","Agades",0
+1949,"Jan","Birni N'Konni",0
+1949,"Jan","Niamey_Aero",0
+1949,"Jan","Zinder",0
+1949,"Feb","Agades",0
+1949,"Feb","Birni N'Konni",0
+1949,"Feb","Niamey_Aero",0
+1949,"Feb","Zinder",0
+1949,"Mar","Agades",0
+1949,"Mar","Birni N'Konni",0
+1949,"Mar","Niamey_Aero",0
+1949,"Mar","Zinder",0
+1949,"Apr","Agades",0
+1949,"Apr","Birni N'Konni",0
+1949,"Apr","Niamey_Aero",1.13666666666667
+1949,"Apr","Zinder",0
+1949,"May","Agades",0
+1949,"May","Birni N'Konni",1.45483870967742
+1949,"May","Niamey_Aero",0.448387096774194
+1949,"May","Zinder",0.370967741935484
+1949,"Jun","Agades",0.0733333333333333
+1949,"Jun","Birni N'Konni",1.29666666666667
+1949,"Jun","Niamey_Aero",1.65
+1949,"Jun","Zinder",0.636666666666667
+1949,"Jul","Agades",1.43225806451613
+1949,"Jul","Birni N'Konni",3.39677419354839
+1949,"Jul","Niamey_Aero",3.56129032258064
+1949,"Jul","Zinder",3.05161290322581
+1949,"Aug","Agades",2.30967741935484
+1949,"Aug","Birni N'Konni",6.39032258064516
+1949,"Aug","Niamey_Aero",4.97096774193548
+1949,"Aug","Zinder",2.84193548387097
+1949,"Sep","Agades",0
+1949,"Sep","Birni N'Konni",1.74666666666667
+1949,"Sep","Niamey_Aero",2.18666666666667
+1949,"Sep","Zinder",1.42333333333333
+1949,"Oct","Agades",0
+1949,"Oct","Birni N'Konni",0
+1949,"Oct","Niamey_Aero",0.0580645161290323
+1949,"Oct","Zinder",0
+1949,"Nov","Agades",0
+1949,"Nov","Birni N'Konni",0
+1949,"Nov","Niamey_Aero",0
+1949,"Nov","Zinder",0
+1949,"Dec","Agades",0
+1949,"Dec","Birni N'Konni",0
+1949,"Dec","Niamey_Aero",0
+1949,"Dec","Zinder",0
+1950,"Jan","Agades",0.112903225806452
+1950,"Jan","Birni N'Konni",0
+1950,"Jan","Niamey_Aero",0.00967741935483871
+1950,"Jan","Zinder",0
+1950,"Feb","Agades",0
+1950,"Feb","Birni N'Konni",0
+1950,"Feb","Niamey_Aero",0
+1950,"Feb","Zinder",0
+1950,"Mar","Agades",0
+1950,"Mar","Birni N'Konni",0
+1950,"Mar","Niamey_Aero",0
+1950,"Mar","Zinder",0
+1950,"Apr","Agades",0
+1950,"Apr","Birni N'Konni",0
+1950,"Apr","Niamey_Aero",0
+1950,"Apr","Zinder",0
+1950,"May","Agades",0
+1950,"May","Birni N'Konni",0.119354838709677
+1950,"May","Niamey_Aero",0.683870967741935
+1950,"May","Zinder",0.00645161290322581
+1950,"Jun","Agades",0.203333333333333
+1950,"Jun","Birni N'Konni",1.48
+1950,"Jun","Niamey_Aero",0.476666666666667
+1950,"Jun","Zinder",0.74
+1950,"Jul","Agades",1.72258064516129
+1950,"Jul","Birni N'Konni",3.27741935483871
+1950,"Jul","Niamey_Aero",3.29354838709677
+1950,"Jul","Zinder",7.64838709677419
+1950,"Aug","Agades",3.85806451612903
+1950,"Aug","Birni N'Konni",12.658064516129
+1950,"Aug","Niamey_Aero",10.4193548387097
+1950,"Aug","Zinder",9.25161290322581
+1950,"Sep","Agades",2.64
+1950,"Sep","Birni N'Konni",6.46333333333333
+1950,"Sep","Niamey_Aero",4.22
+1950,"Sep","Zinder",2.09333333333333
+1950,"Oct","Agades",0
+1950,"Oct","Birni N'Konni",0.206451612903226
+1950,"Oct","Niamey_Aero",0.703225806451613
+1950,"Oct","Zinder",0.0258064516129032
+1950,"Nov","Agades",0
+1950,"Nov","Birni N'Konni",0
+1950,"Nov","Niamey_Aero",0
+1950,"Nov","Zinder",0
+1950,"Dec","Agades",0
+1950,"Dec","Birni N'Konni",0
+1950,"Dec","Niamey_Aero",0
+1950,"Dec","Zinder",0
+1951,"Jan","Agades",0
+1951,"Jan","Birni N'Konni",0
+1951,"Jan","Niamey_Aero",0
+1951,"Jan","Zinder",0
+1951,"Feb","Agades",0
+1951,"Feb","Birni N'Konni",0
+1951,"Feb","Niamey_Aero",0
+1951,"Feb","Zinder",0
+1951,"Mar","Agades",0
+1951,"Mar","Birni N'Konni",0.0483870967741936
+1951,"Mar","Niamey_Aero",0.0129032258064516
+1951,"Mar","Zinder",0
+1951,"Apr","Agades",0
+1951,"Apr","Birni N'Konni",0
+1951,"Apr","Niamey_Aero",0
+1951,"Apr","Zinder",0
+1951,"May","Agades",0.0129032258064516
+1951,"May","Birni N'Konni",1.07096774193548
+1951,"May","Niamey_Aero",1.30322580645161
+1951,"May","Zinder",0.183870967741935
+1951,"Jun","Agades",0.00666666666666667
+1951,"Jun","Birni N'Konni",1.83333333333333
+1951,"Jun","Niamey_Aero",1.65666666666667
+1951,"Jun","Zinder",1.34333333333333
+1951,"Jul","Agades",0.616129032258064
+1951,"Jul","Birni N'Konni",5.72258064516129
+1951,"Jul","Niamey_Aero",2.77096774193548
+1951,"Jul","Zinder",3.8
+1951,"Aug","Agades",1.7258064516129
+1951,"Aug","Birni N'Konni",5.22903225806452
+1951,"Aug","Niamey_Aero",6.35806451612903
+1951,"Aug","Zinder",6.55483870967742
+1951,"Sep","Agades",1.01333333333333
+1951,"Sep","Birni N'Konni",6.97333333333333
+1951,"Sep","Niamey_Aero",3.57666666666667
+1951,"Sep","Zinder",2.78666666666667
+1951,"Oct","Agades",0.148387096774194
+1951,"Oct","Birni N'Konni",1.11612903225806
+1951,"Oct","Niamey_Aero",1.90322580645161
+1951,"Oct","Zinder",1.18064516129032
+1951,"Nov","Agades",0
+1951,"Nov","Birni N'Konni",0
+1951,"Nov","Niamey_Aero",0
+1951,"Nov","Zinder",0
+1951,"Dec","Agades",0
+1951,"Dec","Birni N'Konni",0
+1951,"Dec","Niamey_Aero",0
+1951,"Dec","Zinder",0
+1952,"Jan","Agades",0
+1952,"Jan","Birni N'Konni",0
+1952,"Jan","Niamey_Aero",0
+1952,"Jan","Zinder",0
+1952,"Feb","Agades",0
+1952,"Feb","Birni N'Konni",0
+1952,"Feb","Niamey_Aero",0
+1952,"Feb","Zinder",0
+1952,"Mar","Agades",0
+1952,"Mar","Birni N'Konni",0
+1952,"Mar","Niamey_Aero",0
+1952,"Mar","Zinder",0
+1952,"Apr","Agades",0
+1952,"Apr","Birni N'Konni",0.0166666666666667
+1952,"Apr","Niamey_Aero",0.03
+1952,"Apr","Zinder",0
+1952,"May","Agades",0.470967741935484
+1952,"May","Birni N'Konni",0.751612903225806
+1952,"May","Niamey_Aero",1.9741935483871
+1952,"May","Zinder",0.938709677419355
+1952,"Jun","Agades",0.326666666666667
+1952,"Jun","Birni N'Konni",1.42333333333333
+1952,"Jun","Niamey_Aero",2.15666666666667
+1952,"Jun","Zinder",0.25
+1952,"Jul","Agades",0.845161290322581
+1952,"Jul","Birni N'Konni",5.30645161290323
+1952,"Jul","Niamey_Aero",4.8
+1952,"Jul","Zinder",2.44516129032258
+1952,"Aug","Agades",3.43548387096774
+1952,"Aug","Birni N'Konni",15.8516129032258
+1952,"Aug","Niamey_Aero",14.8387096774194
+1952,"Aug","Zinder",11.6903225806452
+1952,"Sep","Agades",1.68
+1952,"Sep","Birni N'Konni",8.38666666666667
+1952,"Sep","Niamey_Aero",7.38
+1952,"Sep","Zinder",6.08
+1952,"Oct","Agades",0.0838709677419355
+1952,"Oct","Birni N'Konni",0.52258064516129
+1952,"Oct","Niamey_Aero",0.735483870967742
+1952,"Oct","Zinder",0.151612903225806
+1952,"Nov","Agades",0
+1952,"Nov","Birni N'Konni",0
+1952,"Nov","Niamey_Aero",0
+1952,"Nov","Zinder",0
+1952,"Dec","Agades",0
+1952,"Dec","Birni N'Konni",0
+1952,"Dec","Niamey_Aero",0
+1952,"Dec","Zinder",0
+1953,"Jan","Agades",0
+1953,"Jan","Birni N'Konni",0
+1953,"Jan","Niamey_Aero",0
+1953,"Jan","Zinder",0
+1953,"Feb","Agades",0
+1953,"Feb","Birni N'Konni",0
+1953,"Feb","Niamey_Aero",0
+1953,"Feb","Zinder",0
+1953,"Mar","Agades",0.00645161290322581
+1953,"Mar","Birni N'Konni",0.0129032258064516
+1953,"Mar","Niamey_Aero",0.0645161290322581
+1953,"Mar","Zinder",0
+1953,"Apr","Agades",0
+1953,"Apr","Birni N'Konni",0
+1953,"Apr","Niamey_Aero",0
+1953,"Apr","Zinder",0
+1953,"May","Agades",2.31935483870968
+1953,"May","Birni N'Konni",2.65483870967742
+1953,"May","Niamey_Aero",4.50967741935484
+1953,"May","Zinder",NA
+1953,"Jun","Agades",1.15666666666667
+1953,"Jun","Birni N'Konni",3.10333333333333
+1953,"Jun","Niamey_Aero",2.81333333333333
+1953,"Jun","Zinder",2.17
+1953,"Jul","Agades",2.04516129032258
+1953,"Jul","Birni N'Konni",9.66129032258065
+1953,"Jul","Niamey_Aero",6.98064516129032
+1953,"Jul","Zinder",3.70967741935484
+1953,"Aug","Agades",3.68387096774194
+1953,"Aug","Birni N'Konni",9.40645161290323
+1953,"Aug","Niamey_Aero",7.92258064516129
+1953,"Aug","Zinder",4.82258064516129
+1953,"Sep","Agades",0.106666666666667
+1953,"Sep","Birni N'Konni",3.98
+1953,"Sep","Niamey_Aero",2.63333333333333
+1953,"Sep","Zinder",3.23666666666667
+1953,"Oct","Agades",0
+1953,"Oct","Birni N'Konni",1.45161290322581
+1953,"Oct","Niamey_Aero",0
+1953,"Oct","Zinder",0
+1953,"Nov","Agades",0
+1953,"Nov","Birni N'Konni",0
+1953,"Nov","Niamey_Aero",0
+1953,"Nov","Zinder",0
+1953,"Dec","Agades",0
+1953,"Dec","Birni N'Konni",0
+1953,"Dec","Niamey_Aero",0
+1953,"Dec","Zinder",0
+1954,"Jan","Agades",0
+1954,"Jan","Birni N'Konni",0
+1954,"Jan","Niamey_Aero",0
+1954,"Jan","Zinder",0
+1954,"Feb","Agades",0.0535714285714286
+1954,"Feb","Birni N'Konni",0.0892857142857143
+1954,"Feb","Niamey_Aero",0
+1954,"Feb","Zinder",0.0571428571428571
+1954,"Mar","Agades",0
+1954,"Mar","Birni N'Konni",0
+1954,"Mar","Niamey_Aero",0
+1954,"Mar","Zinder",0
+1954,"Apr","Agades",0.01
+1954,"Apr","Birni N'Konni",0.07
+1954,"Apr","Niamey_Aero",0.506666666666667
+1954,"Apr","Zinder",0
+1954,"May","Agades",0.645161290322581
+1954,"May","Birni N'Konni",1.78709677419355
+1954,"May","Niamey_Aero",0.790322580645161
+1954,"May","Zinder",1.22903225806452
+1954,"Jun","Agades",0
+1954,"Jun","Birni N'Konni",1.93333333333333
+1954,"Jun","Niamey_Aero",1.35333333333333
+1954,"Jun","Zinder",0.703333333333333
+1954,"Jul","Agades",1.41290322580645
+1954,"Jul","Birni N'Konni",5.07741935483871
+1954,"Jul","Niamey_Aero",5.06451612903226
+1954,"Jul","Zinder",5.55483870967742
+1954,"Aug","Agades",5.25483870967742
+1954,"Aug","Birni N'Konni",7.50645161290323
+1954,"Aug","Niamey_Aero",4.75483870967742
+1954,"Aug","Zinder",13.4709677419355
+1954,"Sep","Agades",0
+1954,"Sep","Birni N'Konni",4.02666666666667
+1954,"Sep","Niamey_Aero",0.616666666666667
+1954,"Sep","Zinder",1.19
+1954,"Oct","Agades",0.0548387096774194
+1954,"Oct","Birni N'Konni",0.493548387096774
+1954,"Oct","Niamey_Aero",1.62258064516129
+1954,"Oct","Zinder",0.354838709677419
+1954,"Nov","Agades",0
+1954,"Nov","Birni N'Konni",0
+1954,"Nov","Niamey_Aero",0.00666666666666667
+1954,"Nov","Zinder",0.08
+1954,"Dec","Agades",0
+1954,"Dec","Birni N'Konni",0
+1954,"Dec","Niamey_Aero",0
+1954,"Dec","Zinder",0
+1955,"Jan","Agades",0
+1955,"Jan","Birni N'Konni",0
+1955,"Jan","Niamey_Aero",0
+1955,"Jan","Zinder",0.0258064516129032
+1955,"Feb","Agades",0
+1955,"Feb","Birni N'Konni",0
+1955,"Feb","Niamey_Aero",0
+1955,"Feb","Zinder",0
+1955,"Mar","Agades",0
+1955,"Mar","Birni N'Konni",0
+1955,"Mar","Niamey_Aero",0
+1955,"Mar","Zinder",0
+1955,"Apr","Agades",0
+1955,"Apr","Birni N'Konni",0.0333333333333333
+1955,"Apr","Niamey_Aero",0.0766666666666667
+1955,"Apr","Zinder",0
+1955,"May","Agades",0.145161290322581
+1955,"May","Birni N'Konni",0.629032258064516
+1955,"May","Niamey_Aero",0.574193548387097
+1955,"May","Zinder",1.14838709677419
+1955,"Jun","Agades",2.79666666666667
+1955,"Jun","Birni N'Konni",1.39
+1955,"Jun","Niamey_Aero",5.18
+1955,"Jun","Zinder",3.81666666666667
+1955,"Jul","Agades",1.66774193548387
+1955,"Jul","Birni N'Konni",4.84838709677419
+1955,"Jul","Niamey_Aero",6.47741935483871
+1955,"Jul","Zinder",3.15483870967742
+1955,"Aug","Agades",1.46774193548387
+1955,"Aug","Birni N'Konni",4.66451612903226
+1955,"Aug","Niamey_Aero",3.59032258064516
+1955,"Aug","Zinder",4.18709677419355
+1955,"Sep","Agades",0.236666666666667
+1955,"Sep","Birni N'Konni",6.34666666666667
+1955,"Sep","Niamey_Aero",4.54
+1955,"Sep","Zinder",3.80333333333333
+1955,"Oct","Agades",0.032258064516129
+1955,"Oct","Birni N'Konni",0.487096774193548
+1955,"Oct","Niamey_Aero",0.474193548387097
+1955,"Oct","Zinder",0.251612903225806
+1955,"Nov","Agades",0
+1955,"Nov","Birni N'Konni",0
+1955,"Nov","Niamey_Aero",0
+1955,"Nov","Zinder",0
+1955,"Dec","Agades",0
+1955,"Dec","Birni N'Konni",0
+1955,"Dec","Niamey_Aero",0
+1955,"Dec","Zinder",0
+1956,"Jan","Agades",0
+1956,"Jan","Birni N'Konni",0
+1956,"Jan","Niamey_Aero",0
+1956,"Jan","Zinder",0
+1956,"Feb","Agades",0
+1956,"Feb","Birni N'Konni",0
+1956,"Feb","Niamey_Aero",0
+1956,"Feb","Zinder",0
+1956,"Mar","Agades",0
+1956,"Mar","Birni N'Konni",0
+1956,"Mar","Niamey_Aero",0
+1956,"Mar","Zinder",0
+1956,"Apr","Agades",0
+1956,"Apr","Birni N'Konni",0.176666666666667
+1956,"Apr","Niamey_Aero",0.166666666666667
+1956,"Apr","Zinder",0
+1956,"May","Agades",0
+1956,"May","Birni N'Konni",0.0483870967741935
+1956,"May","Niamey_Aero",1.10322580645161
+1956,"May","Zinder",0
+1956,"Jun","Agades",0
+1956,"Jun","Birni N'Konni",1.48
+1956,"Jun","Niamey_Aero",2.23666666666667
+1956,"Jun","Zinder",1.1
+1956,"Jul","Agades",1.20645161290323
+1956,"Jul","Birni N'Konni",3.94838709677419
+1956,"Jul","Niamey_Aero",7.90322580645161
+1956,"Jul","Zinder",5.15161290322581
+1956,"Aug","Agades",2.74193548387097
+1956,"Aug","Birni N'Konni",6.81935483870968
+1956,"Aug","Niamey_Aero",4.03548387096774
+1956,"Aug","Zinder",12.1258064516129
+1956,"Sep","Agades",1.32666666666667
+1956,"Sep","Birni N'Konni",3.91
+1956,"Sep","Niamey_Aero",1.59333333333333
+1956,"Sep","Zinder",1.30333333333333
+1956,"Oct","Agades",0
+1956,"Oct","Birni N'Konni",0
+1956,"Oct","Niamey_Aero",0.529032258064516
+1956,"Oct","Zinder",0.0806451612903226
+1956,"Nov","Agades",0
+1956,"Nov","Birni N'Konni",0
+1956,"Nov","Niamey_Aero",0
+1956,"Nov","Zinder",0
+1956,"Dec","Agades",0
+1956,"Dec","Birni N'Konni",0
+1956,"Dec","Niamey_Aero",0
+1956,"Dec","Zinder",0
+1957,"Jan","Agades",0
+1957,"Jan","Birni N'Konni",0
+1957,"Jan","Niamey_Aero",0
+1957,"Jan","Zinder",0
+1957,"Feb","Agades",0
+1957,"Feb","Birni N'Konni",0
+1957,"Feb","Niamey_Aero",0
+1957,"Feb","Zinder",0
+1957,"Mar","Agades",0
+1957,"Mar","Birni N'Konni",0
+1957,"Mar","Niamey_Aero",0.1
+1957,"Mar","Zinder",0.0032258064516129
+1957,"Apr","Agades",0
+1957,"Apr","Birni N'Konni",0
+1957,"Apr","Niamey_Aero",0.08
+1957,"Apr","Zinder",0
+1957,"May","Agades",0.151612903225806
+1957,"May","Birni N'Konni",2.65483870967742
+1957,"May","Niamey_Aero",1.99354838709677
+1957,"May","Zinder",2.52258064516129
+1957,"Jun","Agades",0.253333333333333
+1957,"Jun","Birni N'Konni",1.99333333333333
+1957,"Jun","Niamey_Aero",4.75666666666667
+1957,"Jun","Zinder",3.36666666666667
+1957,"Jul","Agades",1.2258064516129
+1957,"Jul","Birni N'Konni",3.39677419354839
+1957,"Jul","Niamey_Aero",10.0935483870968
+1957,"Jul","Zinder",4.6
+1957,"Aug","Agades",1.84838709677419
+1957,"Aug","Birni N'Konni",7.96129032258065
+1957,"Aug","Niamey_Aero",3.54838709677419
+1957,"Aug","Zinder",7.91612903225806
+1957,"Sep","Agades",0.273333333333333
+1957,"Sep","Birni N'Konni",3.66
+1957,"Sep","Niamey_Aero",2.09
+1957,"Sep","Zinder",1.03333333333333
+1957,"Oct","Agades",0.00645161290322581
+1957,"Oct","Birni N'Konni",2.63870967741935
+1957,"Oct","Niamey_Aero",1.19677419354839
+1957,"Oct","Zinder",0.0451612903225806
+1957,"Nov","Agades",0.00333333333333333
+1957,"Nov","Birni N'Konni",0
+1957,"Nov","Niamey_Aero",0
+1957,"Nov","Zinder",0
+1957,"Dec","Agades",0
+1957,"Dec","Birni N'Konni",0
+1957,"Dec","Niamey_Aero",0
+1957,"Dec","Zinder",0
+1958,"Jan","Agades",0.0354838709677419
+1958,"Jan","Birni N'Konni",0.167741935483871
+1958,"Jan","Niamey_Aero",0
+1958,"Jan","Zinder",0
+1958,"Feb","Agades",0
+1958,"Feb","Birni N'Konni",0
+1958,"Feb","Niamey_Aero",0
+1958,"Feb","Zinder",0
+1958,"Mar","Agades",0
+1958,"Mar","Birni N'Konni",0
+1958,"Mar","Niamey_Aero",0
+1958,"Mar","Zinder",0
+1958,"Apr","Agades",0
+1958,"Apr","Birni N'Konni",0.0933333333333333
+1958,"Apr","Niamey_Aero",0
+1958,"Apr","Zinder",0.0266666666666667
+1958,"May","Agades",0
+1958,"May","Birni N'Konni",0.348387096774194
+1958,"May","Niamey_Aero",0.396774193548387
+1958,"May","Zinder",0.0774193548387097
+1958,"Jun","Agades",0.23
+1958,"Jun","Birni N'Konni",3.88333333333333
+1958,"Jun","Niamey_Aero",2.56333333333333
+1958,"Jun","Zinder",2.08
+1958,"Jul","Agades",3.58387096774194
+1958,"Jul","Birni N'Konni",5.4
+1958,"Jul","Niamey_Aero",3.49354838709677
+1958,"Jul","Zinder",5.91935483870968
+1958,"Aug","Agades",5.28064516129032
+1958,"Aug","Birni N'Konni",6.86129032258065
+1958,"Aug","Niamey_Aero",7.8258064516129
+1958,"Aug","Zinder",7.85806451612903
+1958,"Sep","Agades",0.15
+1958,"Sep","Birni N'Konni",1.68333333333333
+1958,"Sep","Niamey_Aero",2.77
+1958,"Sep","Zinder",0.876666666666667
+1958,"Oct","Agades",0
+1958,"Oct","Birni N'Konni",1.82258064516129
+1958,"Oct","Niamey_Aero",0
+1958,"Oct","Zinder",0.225806451612903
+1958,"Nov","Agades",0
+1958,"Nov","Birni N'Konni",0
+1958,"Nov","Niamey_Aero",0
+1958,"Nov","Zinder",0
+1958,"Dec","Agades",0.0290322580645161
+1958,"Dec","Birni N'Konni",0
+1958,"Dec","Niamey_Aero",0
+1958,"Dec","Zinder",0
+1959,"Jan","Agades",0
+1959,"Jan","Birni N'Konni",0.0483870967741935
+1959,"Jan","Niamey_Aero",0.0161290322580645
+1959,"Jan","Zinder",0
+1959,"Feb","Agades",0
+1959,"Feb","Birni N'Konni",0
+1959,"Feb","Niamey_Aero",0
+1959,"Feb","Zinder",0
+1959,"Mar","Agades",0
+1959,"Mar","Birni N'Konni",0
+1959,"Mar","Niamey_Aero",0
+1959,"Mar","Zinder",0
+1959,"Apr","Agades",0.0433333333333333
+1959,"Apr","Birni N'Konni",0.0233333333333333
+1959,"Apr","Niamey_Aero",0.04
+1959,"Apr","Zinder",0
+1959,"May","Agades",0.0645161290322581
+1959,"May","Birni N'Konni",2.93870967741935
+1959,"May","Niamey_Aero",1.44193548387097
+1959,"May","Zinder",0.864516129032258
+1959,"Jun","Agades",0.0266666666666667
+1959,"Jun","Birni N'Konni",2.41333333333333
+1959,"Jun","Niamey_Aero",2.11
+1959,"Jun","Zinder",0.653333333333333
+1959,"Jul","Agades",1.45161290322581
+1959,"Jul","Birni N'Konni",2.26774193548387
+1959,"Jul","Niamey_Aero",4.69677419354839
+1959,"Jul","Zinder",1.91612903225806
+1959,"Aug","Agades",NA
+1959,"Aug","Birni N'Konni",NA
+1959,"Aug","Niamey_Aero",NA
+1959,"Aug","Zinder",NA
+1959,"Sep","Agades",1.55333333333333
+1959,"Sep","Birni N'Konni",1.78333333333333
+1959,"Sep","Niamey_Aero",3.74
+1959,"Sep","Zinder",1.71333333333333
+1959,"Oct","Agades",0
+1959,"Oct","Birni N'Konni",0.167741935483871
+1959,"Oct","Niamey_Aero",0.3
+1959,"Oct","Zinder",0
+1959,"Nov","Agades",0
+1959,"Nov","Birni N'Konni",0
+1959,"Nov","Niamey_Aero",0
+1959,"Nov","Zinder",0
+1959,"Dec","Agades",0
+1959,"Dec","Birni N'Konni",0
+1959,"Dec","Niamey_Aero",0
+1959,"Dec","Zinder",0
+1960,"Jan","Agades",0
+1960,"Jan","Birni N'Konni",0
+1960,"Jan","Niamey_Aero",0
+1960,"Jan","Zinder",0
+1960,"Feb","Agades",0
+1960,"Feb","Birni N'Konni",0
+1960,"Feb","Niamey_Aero",0
+1960,"Feb","Zinder",0
+1960,"Mar","Agades",0
+1960,"Mar","Birni N'Konni",0
+1960,"Mar","Niamey_Aero",0.103225806451613
+1960,"Mar","Zinder",0
+1960,"Apr","Agades",0
+1960,"Apr","Birni N'Konni",0
+1960,"Apr","Niamey_Aero",0
+1960,"Apr","Zinder",0.00666666666666667
+1960,"May","Agades",0
+1960,"May","Birni N'Konni",0.890322580645161
+1960,"May","Niamey_Aero",0.651612903225806
+1960,"May","Zinder",1.59032258064516
+1960,"Jun","Agades",0.0233333333333333
+1960,"Jun","Birni N'Konni",2.50666666666667
+1960,"Jun","Niamey_Aero",1.39
+1960,"Jun","Zinder",2.87333333333333
+1960,"Jul","Agades",2.26451612903226
+1960,"Jul","Birni N'Konni",4.99354838709677
+1960,"Jul","Niamey_Aero",5.93870967741935
+1960,"Jul","Zinder",6.25806451612903
+1960,"Aug","Agades",1.75483870967742
+1960,"Aug","Birni N'Konni",3.37096774193548
+1960,"Aug","Niamey_Aero",5.68709677419355
+1960,"Aug","Zinder",5.85806451612903
+1960,"Sep","Agades",0.72
+1960,"Sep","Birni N'Konni",2.23333333333333
+1960,"Sep","Niamey_Aero",4.47666666666667
+1960,"Sep","Zinder",2.4
+1960,"Oct","Agades",0
+1960,"Oct","Birni N'Konni",0
+1960,"Oct","Niamey_Aero",0.0580645161290323
+1960,"Oct","Zinder",0
+1960,"Nov","Agades",0
+1960,"Nov","Birni N'Konni",0
+1960,"Nov","Niamey_Aero",0
+1960,"Nov","Zinder",0
+1960,"Dec","Agades",0.0032258064516129
+1960,"Dec","Birni N'Konni",0
+1960,"Dec","Niamey_Aero",0.00645161290322581
+1960,"Dec","Zinder",0
+1961,"Jan","Agades",0
+1961,"Jan","Birni N'Konni",0
+1961,"Jan","Niamey_Aero",0.0032258064516129
+1961,"Jan","Zinder",0
+1961,"Feb","Agades",0
+1961,"Feb","Birni N'Konni",0
+1961,"Feb","Niamey_Aero",0
+1961,"Feb","Zinder",0
+1961,"Mar","Agades",0
+1961,"Mar","Birni N'Konni",0
+1961,"Mar","Niamey_Aero",0.219354838709677
+1961,"Mar","Zinder",0
+1961,"Apr","Agades",0
+1961,"Apr","Birni N'Konni",0
+1961,"Apr","Niamey_Aero",0
+1961,"Apr","Zinder",0
+1961,"May","Agades",0
+1961,"May","Birni N'Konni",0.774193548387097
+1961,"May","Niamey_Aero",1.37741935483871
+1961,"May","Zinder",0
+1961,"Jun","Agades",0.03
+1961,"Jun","Birni N'Konni",1.75666666666667
+1961,"Jun","Niamey_Aero",2.26666666666667
+1961,"Jun","Zinder",2.85
+1961,"Jul","Agades",1.98709677419355
+1961,"Jul","Birni N'Konni",5.47741935483871
+1961,"Jul","Niamey_Aero",6.16774193548387
+1961,"Jul","Zinder",3.94838709677419
+1961,"Aug","Agades",4.9
+1961,"Aug","Birni N'Konni",8.17096774193548
+1961,"Aug","Niamey_Aero",7.56774193548387
+1961,"Aug","Zinder",11.3387096774194
+1961,"Sep","Agades",0.0666666666666667
+1961,"Sep","Birni N'Konni",1.71666666666667
+1961,"Sep","Niamey_Aero",3.00666666666667
+1961,"Sep","Zinder",0.593333333333333
+1961,"Oct","Agades",0
+1961,"Oct","Birni N'Konni",0
+1961,"Oct","Niamey_Aero",0
+1961,"Oct","Zinder",0
+1961,"Nov","Agades",0
+1961,"Nov","Birni N'Konni",0
+1961,"Nov","Niamey_Aero",0
+1961,"Nov","Zinder",0
+1961,"Dec","Agades",0
+1961,"Dec","Birni N'Konni",0
+1961,"Dec","Niamey_Aero",0
+1961,"Dec","Zinder",0
+1962,"Jan","Agades",0
+1962,"Jan","Birni N'Konni",0
+1962,"Jan","Niamey_Aero",0
+1962,"Jan","Zinder",0
+1962,"Feb","Agades",0
+1962,"Feb","Birni N'Konni",0
+1962,"Feb","Niamey_Aero",0
+1962,"Feb","Zinder",0
+1962,"Mar","Agades",0
+1962,"Mar","Birni N'Konni",0
+1962,"Mar","Niamey_Aero",0
+1962,"Mar","Zinder",0
+1962,"Apr","Agades",0
+1962,"Apr","Birni N'Konni",0.0133333333333333
+1962,"Apr","Niamey_Aero",0.09
+1962,"Apr","Zinder",0
+1962,"May","Agades",0.309677419354839
+1962,"May","Birni N'Konni",0.454838709677419
+1962,"May","Niamey_Aero",0.345161290322581
+1962,"May","Zinder",0.0967741935483871
+1962,"Jun","Agades",0.223333333333333
+1962,"Jun","Birni N'Konni",1.64
+1962,"Jun","Niamey_Aero",0.91
+1962,"Jun","Zinder",3.42
+1962,"Jul","Agades",1.57741935483871
+1962,"Jul","Birni N'Konni",8.30645161290323
+1962,"Jul","Niamey_Aero",10.5838709677419
+1962,"Jul","Zinder",5.56451612903226
+1962,"Aug","Agades",1.24516129032258
+1962,"Aug","Birni N'Konni",5.13548387096774
+1962,"Aug","Niamey_Aero",8.16774193548387
+1962,"Aug","Zinder",4.26129032258065
+1962,"Sep","Agades",1.58666666666667
+1962,"Sep","Birni N'Konni",1.49666666666667
+1962,"Sep","Niamey_Aero",3.4
+1962,"Sep","Zinder",1.42333333333333
+1962,"Oct","Agades",0
+1962,"Oct","Birni N'Konni",0.00645161290322581
+1962,"Oct","Niamey_Aero",0.0193548387096774
+1962,"Oct","Zinder",0.416129032258065
+1962,"Nov","Agades",0
+1962,"Nov","Birni N'Konni",0
+1962,"Nov","Niamey_Aero",0.526666666666667
+1962,"Nov","Zinder",0.0666666666666667
+1962,"Dec","Agades",0
+1962,"Dec","Birni N'Konni",0
+1962,"Dec","Niamey_Aero",0
+1962,"Dec","Zinder",0
+1963,"Jan","Agades",0
+1963,"Jan","Birni N'Konni",0
+1963,"Jan","Niamey_Aero",0
+1963,"Jan","Zinder",0
+1963,"Feb","Agades",0
+1963,"Feb","Birni N'Konni",0
+1963,"Feb","Niamey_Aero",0
+1963,"Feb","Zinder",0
+1963,"Mar","Agades",0
+1963,"Mar","Birni N'Konni",0
+1963,"Mar","Niamey_Aero",0
+1963,"Mar","Zinder",0
+1963,"Apr","Agades",0
+1963,"Apr","Birni N'Konni",0.05
+1963,"Apr","Niamey_Aero",0.103333333333333
+1963,"Apr","Zinder",0.113333333333333
+1963,"May","Agades",0
+1963,"May","Birni N'Konni",0.996774193548387
+1963,"May","Niamey_Aero",0.851612903225806
+1963,"May","Zinder",0.412903225806452
+1963,"Jun","Agades",0.56
+1963,"Jun","Birni N'Konni",2.05666666666667
+1963,"Jun","Niamey_Aero",2.00333333333333
+1963,"Jun","Zinder",0.533333333333333
+1963,"Jul","Agades",1.86129032258065
+1963,"Jul","Birni N'Konni",2.63870967741935
+1963,"Jul","Niamey_Aero",4.65483870967742
+1963,"Jul","Zinder",4.06774193548387
+1963,"Aug","Agades",2.68387096774194
+1963,"Aug","Birni N'Konni",4.71290322580645
+1963,"Aug","Niamey_Aero",5.45161290322581
+1963,"Aug","Zinder",3.64838709677419
+1963,"Sep","Agades",0.423333333333333
+1963,"Sep","Birni N'Konni",3.10333333333333
+1963,"Sep","Niamey_Aero",1.92666666666667
+1963,"Sep","Zinder",1.95
+1963,"Oct","Agades",0.135483870967742
+1963,"Oct","Birni N'Konni",1.46774193548387
+1963,"Oct","Niamey_Aero",0.412903225806452
+1963,"Oct","Zinder",0.929032258064516
+1963,"Nov","Agades",0
+1963,"Nov","Birni N'Konni",0
+1963,"Nov","Niamey_Aero",0
+1963,"Nov","Zinder",0.126666666666667
+1963,"Dec","Agades",0
+1963,"Dec","Birni N'Konni",0
+1963,"Dec","Niamey_Aero",0
+1963,"Dec","Zinder",0
+1964,"Jan","Agades",0
+1964,"Jan","Birni N'Konni",0
+1964,"Jan","Niamey_Aero",0
+1964,"Jan","Zinder",0
+1964,"Feb","Agades",0
+1964,"Feb","Birni N'Konni",0
+1964,"Feb","Niamey_Aero",0
+1964,"Feb","Zinder",0
+1964,"Mar","Agades",0
+1964,"Mar","Birni N'Konni",0.390322580645161
+1964,"Mar","Niamey_Aero",0.606451612903226
+1964,"Mar","Zinder",0
+1964,"Apr","Agades",0.08
+1964,"Apr","Birni N'Konni",0.12
+1964,"Apr","Niamey_Aero",1.64
+1964,"Apr","Zinder",0
+1964,"May","Agades",0.0354838709677419
+1964,"May","Birni N'Konni",1.38064516129032
+1964,"May","Niamey_Aero",1.43548387096774
+1964,"May","Zinder",0.132258064516129
+1964,"Jun","Agades",0.213333333333333
+1964,"Jun","Birni N'Konni",5.24333333333333
+1964,"Jun","Niamey_Aero",2.09
+1964,"Jun","Zinder",0.933333333333333
+1964,"Jul","Agades",0.358064516129032
+1964,"Jul","Birni N'Konni",3.67096774193548
+1964,"Jul","Niamey_Aero",7.05483870967742
+1964,"Jul","Zinder",8.34838709677419
+1964,"Aug","Agades",3.4741935483871
+1964,"Aug","Birni N'Konni",7.77741935483871
+1964,"Aug","Niamey_Aero",9.51935483870968
+1964,"Aug","Zinder",9.80322580645161
+1964,"Sep","Agades",0
+1964,"Sep","Birni N'Konni",2.09
+1964,"Sep","Niamey_Aero",5.51333333333333
+1964,"Sep","Zinder",2.08333333333333
+1964,"Oct","Agades",0
+1964,"Oct","Birni N'Konni",0
+1964,"Oct","Niamey_Aero",0
+1964,"Oct","Zinder",0
+1964,"Nov","Agades",0
+1964,"Nov","Birni N'Konni",0
+1964,"Nov","Niamey_Aero",0
+1964,"Nov","Zinder",0.04
+1964,"Dec","Agades",0
+1964,"Dec","Birni N'Konni",0
+1964,"Dec","Niamey_Aero",0
+1964,"Dec","Zinder",0
+1965,"Jan","Agades",0
+1965,"Jan","Birni N'Konni",0
+1965,"Jan","Niamey_Aero",0
+1965,"Jan","Zinder",0
+1965,"Feb","Agades",0
+1965,"Feb","Birni N'Konni",0
+1965,"Feb","Niamey_Aero",0
+1965,"Feb","Zinder",0.157142857142857
+1965,"Mar","Agades",0
+1965,"Mar","Birni N'Konni",0
+1965,"Mar","Niamey_Aero",0
+1965,"Mar","Zinder",0
+1965,"Apr","Agades",0
+1965,"Apr","Birni N'Konni",0
+1965,"Apr","Niamey_Aero",0.0733333333333333
+1965,"Apr","Zinder",0
+1965,"May","Agades",0.245161290322581
+1965,"May","Birni N'Konni",2.04838709677419
+1965,"May","Niamey_Aero",0.967741935483871
+1965,"May","Zinder",NA
+1965,"Jun","Agades",0.59
+1965,"Jun","Birni N'Konni",6.27333333333333
+1965,"Jun","Niamey_Aero",4.43
+1965,"Jun","Zinder",0
+1965,"Jul","Agades",0.480645161290323
+1965,"Jul","Birni N'Konni",2.2
+1965,"Jul","Niamey_Aero",4.68387096774194
+1965,"Jul","Zinder",2.55483870967742
+1965,"Aug","Agades",3.03870967741936
+1965,"Aug","Birni N'Konni",6.1741935483871
+1965,"Aug","Niamey_Aero",0
+1965,"Aug","Zinder",5.22258064516129
+1965,"Sep","Agades",0.51
+1965,"Sep","Birni N'Konni",7.34333333333333
+1965,"Sep","Niamey_Aero",7.71333333333333
+1965,"Sep","Zinder",0
+1965,"Oct","Agades",0
+1965,"Oct","Birni N'Konni",0.0612903225806452
+1965,"Oct","Niamey_Aero",0.319354838709677
+1965,"Oct","Zinder",0
+1965,"Nov","Agades",0
+1965,"Nov","Birni N'Konni",0
+1965,"Nov","Niamey_Aero",0
+1965,"Nov","Zinder",0
+1965,"Dec","Agades",0
+1965,"Dec","Birni N'Konni",0
+1965,"Dec","Niamey_Aero",0
+1965,"Dec","Zinder",0
+1966,"Jan","Agades",0
+1966,"Jan","Birni N'Konni",0
+1966,"Jan","Niamey_Aero",0
+1966,"Jan","Zinder",0
+1966,"Feb","Agades",0
+1966,"Feb","Birni N'Konni",0
+1966,"Feb","Niamey_Aero",0
+1966,"Feb","Zinder",NA
+1966,"Mar","Agades",0
+1966,"Mar","Birni N'Konni",0
+1966,"Mar","Niamey_Aero",0.335483870967742
+1966,"Mar","Zinder",0
+1966,"Apr","Agades",0.01
+1966,"Apr","Birni N'Konni",0
+1966,"Apr","Niamey_Aero",0.0566666666666667
+1966,"Apr","Zinder",0.03
+1966,"May","Agades",3.9258064516129
+1966,"May","Birni N'Konni",2.65483870967742
+1966,"May","Niamey_Aero",0.693548387096774
+1966,"May","Zinder",2.80967741935484
+1966,"Jun","Agades",0.226666666666667
+1966,"Jun","Birni N'Konni",7.30666666666667
+1966,"Jun","Niamey_Aero",NA
+1966,"Jun","Zinder",3.15666666666667
+1966,"Jul","Agades",0.345161290322581
+1966,"Jul","Birni N'Konni",2.03870967741935
+1966,"Jul","Niamey_Aero",2.85806451612903
+1966,"Jul","Zinder",1.09354838709677
+1966,"Aug","Agades",1.39354838709677
+1966,"Aug","Birni N'Konni",5.97096774193548
+1966,"Aug","Niamey_Aero",5.49677419354839
+1966,"Aug","Zinder",5.30645161290323
+1966,"Sep","Agades",0.716666666666667
+1966,"Sep","Birni N'Konni",5.25666666666667
+1966,"Sep","Niamey_Aero",2.06333333333333
+1966,"Sep","Zinder",4
+1966,"Oct","Agades",0
+1966,"Oct","Birni N'Konni",0
+1966,"Oct","Niamey_Aero",1.13225806451613
+1966,"Oct","Zinder",0.0548387096774194
+1966,"Nov","Agades",0
+1966,"Nov","Birni N'Konni",0
+1966,"Nov","Niamey_Aero",0
+1966,"Nov","Zinder",0
+1966,"Dec","Agades",0
+1966,"Dec","Birni N'Konni",0
+1966,"Dec","Niamey_Aero",0
+1966,"Dec","Zinder",0
+1967,"Jan","Agades",0
+1967,"Jan","Birni N'Konni",0
+1967,"Jan","Niamey_Aero",0
+1967,"Jan","Zinder",0
+1967,"Feb","Agades",NA
+1967,"Feb","Birni N'Konni",0
+1967,"Feb","Niamey_Aero",0
+1967,"Feb","Zinder",0
+1967,"Mar","Agades",0.0580645161290323
+1967,"Mar","Birni N'Konni",0.0225806451612903
+1967,"Mar","Niamey_Aero",0.119354838709677
+1967,"Mar","Zinder",0.0903225806451613
+1967,"Apr","Agades",0
+1967,"Apr","Birni N'Konni",0.16
+1967,"Apr","Niamey_Aero",0.45
+1967,"Apr","Zinder",NA
+1967,"May","Agades",0
+1967,"May","Birni N'Konni",0.212903225806452
+1967,"May","Niamey_Aero",0.345161290322581
+1967,"May","Zinder",0.0258064516129032
+1967,"Jun","Agades",0.0733333333333333
+1967,"Jun","Birni N'Konni",2.00333333333333
+1967,"Jun","Niamey_Aero",3.88333333333333
+1967,"Jun","Zinder",1.11666666666667
+1967,"Jul","Agades",1.91935483870968
+1967,"Jul","Birni N'Konni",4.63548387096774
+1967,"Jul","Niamey_Aero",5.7
+1967,"Jul","Zinder",4.21290322580645
+1967,"Aug","Agades",NA
+1967,"Aug","Birni N'Konni",7.09677419354839
+1967,"Aug","Niamey_Aero",8.59032258064516
+1967,"Aug","Zinder",5.10322580645161
+1967,"Sep","Agades",0.87
+1967,"Sep","Birni N'Konni",4.08333333333333
+1967,"Sep","Niamey_Aero",8.11
+1967,"Sep","Zinder",2.10333333333333
+1967,"Oct","Agades",0
+1967,"Oct","Birni N'Konni",NA
+1967,"Oct","Niamey_Aero",1.21612903225806
+1967,"Oct","Zinder",0
+1967,"Nov","Agades",0
+1967,"Nov","Birni N'Konni",0
+1967,"Nov","Niamey_Aero",0
+1967,"Nov","Zinder",0
+1967,"Dec","Agades",0
+1967,"Dec","Birni N'Konni",0
+1967,"Dec","Niamey_Aero",0
+1967,"Dec","Zinder",0
+1968,"Jan","Agades",0
+1968,"Jan","Birni N'Konni",0
+1968,"Jan","Niamey_Aero",0
+1968,"Jan","Zinder",0
+1968,"Feb","Agades",0
+1968,"Feb","Birni N'Konni",0
+1968,"Feb","Niamey_Aero",0
+1968,"Feb","Zinder",0
+1968,"Mar","Agades",0
+1968,"Mar","Birni N'Konni",0
+1968,"Mar","Niamey_Aero",0
+1968,"Mar","Zinder",0
+1968,"Apr","Agades",1.67333333333333
+1968,"Apr","Birni N'Konni",1.24666666666667
+1968,"Apr","Niamey_Aero",0.0533333333333333
+1968,"Apr","Zinder",0.113333333333333
+1968,"May","Agades",0.0161290322580645
+1968,"May","Birni N'Konni",0.987096774193548
+1968,"May","Niamey_Aero",0.248387096774194
+1968,"May","Zinder",0.835483870967742
+1968,"Jun","Agades",NA
+1968,"Jun","Birni N'Konni",3.44333333333333
+1968,"Jun","Niamey_Aero",5.08
+1968,"Jun","Zinder",1.05666666666667
+1968,"Jul","Agades",1.96129032258065
+1968,"Jul","Birni N'Konni",3.16129032258065
+1968,"Jul","Niamey_Aero",5.04193548387097
+1968,"Jul","Zinder",4.48064516129032
+1968,"Aug","Agades",0.841935483870968
+1968,"Aug","Birni N'Konni",6.16451612903226
+1968,"Aug","Niamey_Aero",4.52258064516129
+1968,"Aug","Zinder",5.18709677419355
+1968,"Sep","Agades",0.266666666666667
+1968,"Sep","Birni N'Konni",2.08
+1968,"Sep","Niamey_Aero",2.81
+1968,"Sep","Zinder",NA
+1968,"Oct","Agades",0
+1968,"Oct","Birni N'Konni",0.00645161290322581
+1968,"Oct","Niamey_Aero",0.406451612903226
+1968,"Oct","Zinder",0
+1968,"Nov","Agades",0
+1968,"Nov","Birni N'Konni",0
+1968,"Nov","Niamey_Aero",0
+1968,"Nov","Zinder",0
+1968,"Dec","Agades",0
+1968,"Dec","Birni N'Konni",0
+1968,"Dec","Niamey_Aero",0
+1968,"Dec","Zinder",0
+1969,"Jan","Agades",0
+1969,"Jan","Birni N'Konni",0
+1969,"Jan","Niamey_Aero",0
+1969,"Jan","Zinder",0
+1969,"Feb","Agades",0
+1969,"Feb","Birni N'Konni",0
+1969,"Feb","Niamey_Aero",0
+1969,"Feb","Zinder",0
+1969,"Mar","Agades",0
+1969,"Mar","Birni N'Konni",0
+1969,"Mar","Niamey_Aero",0
+1969,"Mar","Zinder",0
+1969,"Apr","Agades",0
+1969,"Apr","Birni N'Konni",0.0366666666666667
+1969,"Apr","Niamey_Aero",0.0133333333333333
+1969,"Apr","Zinder",0
+1969,"May","Agades",0.567741935483871
+1969,"May","Birni N'Konni",0.0741935483870968
+1969,"May","Niamey_Aero",0.670967741935484
+1969,"May","Zinder",0.151612903225806
+1969,"Jun","Agades",0.0366666666666667
+1969,"Jun","Birni N'Konni",NA
+1969,"Jun","Niamey_Aero",3.20666666666667
+1969,"Jun","Zinder",1.62
+1969,"Jul","Agades",0.283870967741935
+1969,"Jul","Birni N'Konni",5.35483870967742
+1969,"Jul","Niamey_Aero",7.11612903225806
+1969,"Jul","Zinder",3.29354838709677
+1969,"Aug","Agades",1.64193548387097
+1969,"Aug","Birni N'Konni",7.46129032258064
+1969,"Aug","Niamey_Aero",6.61935483870968
+1969,"Aug","Zinder",5.83225806451613
+1969,"Sep","Agades",0.1
+1969,"Sep","Birni N'Konni",4.51666666666667
+1969,"Sep","Niamey_Aero",2.04333333333333
+1969,"Sep","Zinder",3.14
+1969,"Oct","Agades",0.00645161290322581
+1969,"Oct","Birni N'Konni",0.606451612903226
+1969,"Oct","Niamey_Aero",0.164516129032258
+1969,"Oct","Zinder",0.2
+1969,"Nov","Agades",0
+1969,"Nov","Birni N'Konni",0
+1969,"Nov","Niamey_Aero",0
+1969,"Nov","Zinder",0
+1969,"Dec","Agades",0
+1969,"Dec","Birni N'Konni",0
+1969,"Dec","Niamey_Aero",0
+1969,"Dec","Zinder",0
+1970,"Jan","Agades",0
+1970,"Jan","Birni N'Konni",0
+1970,"Jan","Niamey_Aero",0
+1970,"Jan","Zinder",0
+1970,"Feb","Agades",0
+1970,"Feb","Birni N'Konni",0
+1970,"Feb","Niamey_Aero",0
+1970,"Feb","Zinder",0
+1970,"Mar","Agades",0
+1970,"Mar","Birni N'Konni",0
+1970,"Mar","Niamey_Aero",0
+1970,"Mar","Zinder",0
+1970,"Apr","Agades",0
+1970,"Apr","Birni N'Konni",0
+1970,"Apr","Niamey_Aero",0
+1970,"Apr","Zinder",0
+1970,"May","Agades",0
+1970,"May","Birni N'Konni",0.193548387096774
+1970,"May","Niamey_Aero",0.490322580645161
+1970,"May","Zinder",0.658064516129032
+1970,"Jun","Agades",0
+1970,"Jun","Birni N'Konni",1.25666666666667
+1970,"Jun","Niamey_Aero",0.08
+1970,"Jun","Zinder",0.236666666666667
+1970,"Jul","Agades",0.716129032258064
+1970,"Jul","Birni N'Konni",9.19677419354839
+1970,"Jul","Niamey_Aero",6.55483870967742
+1970,"Jul","Zinder",NA
+1970,"Aug","Agades",0.445161290322581
+1970,"Aug","Birni N'Konni",4.79354838709677
+1970,"Aug","Niamey_Aero",5.39354838709677
+1970,"Aug","Zinder",7.33225806451613
+1970,"Sep","Agades",0.123333333333333
+1970,"Sep","Birni N'Konni",2.65333333333333
+1970,"Sep","Niamey_Aero",2.74333333333333
+1970,"Sep","Zinder",1.01333333333333
+1970,"Oct","Agades",0
+1970,"Oct","Birni N'Konni",0.0032258064516129
+1970,"Oct","Niamey_Aero",0
+1970,"Oct","Zinder",0
+1970,"Nov","Agades",0
+1970,"Nov","Birni N'Konni",0
+1970,"Nov","Niamey_Aero",0
+1970,"Nov","Zinder",0
+1970,"Dec","Agades",0
+1970,"Dec","Birni N'Konni",0
+1970,"Dec","Niamey_Aero",0
+1970,"Dec","Zinder",0
+1971,"Jan","Agades",0
+1971,"Jan","Birni N'Konni",0
+1971,"Jan","Niamey_Aero",0
+1971,"Jan","Zinder",0
+1971,"Feb","Agades",0
+1971,"Feb","Birni N'Konni",0
+1971,"Feb","Niamey_Aero",0.0285714285714286
+1971,"Feb","Zinder",0
+1971,"Mar","Agades",0.0161290322580645
+1971,"Mar","Birni N'Konni",0
+1971,"Mar","Niamey_Aero",0
+1971,"Mar","Zinder",0
+1971,"Apr","Agades",0
+1971,"Apr","Birni N'Konni",0
+1971,"Apr","Niamey_Aero",0
+1971,"Apr","Zinder",0.0266666666666667
+1971,"May","Agades",0
+1971,"May","Birni N'Konni",0.309677419354839
+1971,"May","Niamey_Aero",0.0129032258064516
+1971,"May","Zinder",0.974193548387097
+1971,"Jun","Agades",0
+1971,"Jun","Birni N'Konni",1.13666666666667
+1971,"Jun","Niamey_Aero",1.59333333333333
+1971,"Jun","Zinder",0.17
+1971,"Jul","Agades",0.909677419354839
+1971,"Jul","Birni N'Konni",2.15806451612903
+1971,"Jul","Niamey_Aero",3.07096774193548
+1971,"Jul","Zinder",1.37096774193548
+1971,"Aug","Agades",1.82903225806452
+1971,"Aug","Birni N'Konni",7.05161290322581
+1971,"Aug","Niamey_Aero",8.40967741935484
+1971,"Aug","Zinder",6.04193548387097
+1971,"Sep","Agades",0.24
+1971,"Sep","Birni N'Konni",1.96333333333333
+1971,"Sep","Niamey_Aero",1.9
+1971,"Sep","Zinder",2.88333333333333
+1971,"Oct","Agades",0
+1971,"Oct","Birni N'Konni",0
+1971,"Oct","Niamey_Aero",0.180645161290323
+1971,"Oct","Zinder",0
+1971,"Nov","Agades",0
+1971,"Nov","Birni N'Konni",0
+1971,"Nov","Niamey_Aero",0
+1971,"Nov","Zinder",0
+1971,"Dec","Agades",0
+1971,"Dec","Birni N'Konni",0
+1971,"Dec","Niamey_Aero",0
+1971,"Dec","Zinder",0
+1972,"Jan","Agades",0
+1972,"Jan","Birni N'Konni",0
+1972,"Jan","Niamey_Aero",0
+1972,"Jan","Zinder",0
+1972,"Feb","Agades",0
+1972,"Feb","Birni N'Konni",0
+1972,"Feb","Niamey_Aero",0
+1972,"Feb","Zinder",0
+1972,"Mar","Agades",0
+1972,"Mar","Birni N'Konni",0
+1972,"Mar","Niamey_Aero",0
+1972,"Mar","Zinder",0
+1972,"Apr","Agades",0
+1972,"Apr","Birni N'Konni",0.0566666666666667
+1972,"Apr","Niamey_Aero",0.353333333333333
+1972,"Apr","Zinder",0.573333333333333
+1972,"May","Agades",0.00645161290322581
+1972,"May","Birni N'Konni",NA
+1972,"May","Niamey_Aero",0.516129032258065
+1972,"May","Zinder",0.248387096774194
+1972,"Jun","Agades",0.446666666666667
+1972,"Jun","Birni N'Konni",3.51333333333333
+1972,"Jun","Niamey_Aero",1.83
+1972,"Jun","Zinder",1.26333333333333
+1972,"Jul","Agades",0.603225806451613
+1972,"Jul","Birni N'Konni",1.23548387096774
+1972,"Jul","Niamey_Aero",3.29032258064516
+1972,"Jul","Zinder",NA
+1972,"Aug","Agades",1.31290322580645
+1972,"Aug","Birni N'Konni",2.64516129032258
+1972,"Aug","Niamey_Aero",2.76774193548387
+1972,"Aug","Zinder",NA
+1972,"Sep","Agades",0.03
+1972,"Sep","Birni N'Konni",1.41666666666667
+1972,"Sep","Niamey_Aero",1.9
+1972,"Sep","Zinder",0.333333333333333
+1972,"Oct","Agades",0
+1972,"Oct","Birni N'Konni",0.709677419354839
+1972,"Oct","Niamey_Aero",0.590322580645161
+1972,"Oct","Zinder",0
+1972,"Nov","Agades",0
+1972,"Nov","Birni N'Konni",0
+1972,"Nov","Niamey_Aero",0
+1972,"Nov","Zinder",0
+1972,"Dec","Agades",0
+1972,"Dec","Birni N'Konni",0
+1972,"Dec","Niamey_Aero",0
+1972,"Dec","Zinder",0
+1973,"Jan","Agades",0
+1973,"Jan","Birni N'Konni",0
+1973,"Jan","Niamey_Aero",0
+1973,"Jan","Zinder",0
+1973,"Feb","Agades",0
+1973,"Feb","Birni N'Konni",0
+1973,"Feb","Niamey_Aero",0
+1973,"Feb","Zinder",0
+1973,"Mar","Agades",0
+1973,"Mar","Birni N'Konni",0
+1973,"Mar","Niamey_Aero",0
+1973,"Mar","Zinder",0
+1973,"Apr","Agades",0.27
+1973,"Apr","Birni N'Konni",0
+1973,"Apr","Niamey_Aero",0.01
+1973,"Apr","Zinder",0
+1973,"May","Agades",0
+1973,"May","Birni N'Konni",0
+1973,"May","Niamey_Aero",0.154838709677419
+1973,"May","Zinder",0.0935483870967742
+1973,"Jun","Agades",0.36
+1973,"Jun","Birni N'Konni",1.41666666666667
+1973,"Jun","Niamey_Aero",1.47666666666667
+1973,"Jun","Zinder",0.746666666666667
+1973,"Jul","Agades",1.27096774193548
+1973,"Jul","Birni N'Konni",3.43548387096774
+1973,"Jul","Niamey_Aero",4.31935483870968
+1973,"Jul","Zinder",4.58709677419355
+1973,"Aug","Agades",0.57741935483871
+1973,"Aug","Birni N'Konni",2.98387096774194
+1973,"Aug","Niamey_Aero",3.85806451612903
+1973,"Aug","Zinder",1.70967741935484
+1973,"Sep","Agades",0.00333333333333333
+1973,"Sep","Birni N'Konni",1.59666666666667
+1973,"Sep","Niamey_Aero",2.64333333333333
+1973,"Sep","Zinder",2.56666666666667
+1973,"Oct","Agades",0
+1973,"Oct","Birni N'Konni",0
+1973,"Oct","Niamey_Aero",0.145161290322581
+1973,"Oct","Zinder",0
+1973,"Nov","Agades",0
+1973,"Nov","Birni N'Konni",0
+1973,"Nov","Niamey_Aero",0
+1973,"Nov","Zinder",0
+1973,"Dec","Agades",0
+1973,"Dec","Birni N'Konni",0
+1973,"Dec","Niamey_Aero",0
+1973,"Dec","Zinder",0
+1974,"Jan","Agades",0
+1974,"Jan","Birni N'Konni",0
+1974,"Jan","Niamey_Aero",0
+1974,"Jan","Zinder",0
+1974,"Feb","Agades",0
+1974,"Feb","Birni N'Konni",0
+1974,"Feb","Niamey_Aero",0
+1974,"Feb","Zinder",0
+1974,"Mar","Agades",0
+1974,"Mar","Birni N'Konni",0
+1974,"Mar","Niamey_Aero",0.00967741935483871
+1974,"Mar","Zinder",0
+1974,"Apr","Agades",0
+1974,"Apr","Birni N'Konni",0.0433333333333333
+1974,"Apr","Niamey_Aero",0
+1974,"Apr","Zinder",0
+1974,"May","Agades",0.187096774193548
+1974,"May","Birni N'Konni",0.154838709677419
+1974,"May","Niamey_Aero",0.212903225806452
+1974,"May","Zinder",0.374193548387097
+1974,"Jun","Agades",0.0433333333333333
+1974,"Jun","Birni N'Konni",1.10333333333333
+1974,"Jun","Niamey_Aero",NA
+1974,"Jun","Zinder",0.21
+1974,"Jul","Agades",1.54193548387097
+1974,"Jul","Birni N'Konni",4.07096774193548
+1974,"Jul","Niamey_Aero",5.39354838709677
+1974,"Jul","Zinder",7.54838709677419
+1974,"Aug","Agades",2.62258064516129
+1974,"Aug","Birni N'Konni",6.06129032258065
+1974,"Aug","Niamey_Aero",6.65483870967742
+1974,"Aug","Zinder",5.00645161290323
+1974,"Sep","Agades",0.00666666666666667
+1974,"Sep","Birni N'Konni",2.24666666666667
+1974,"Sep","Niamey_Aero",1.87666666666667
+1974,"Sep","Zinder",2.69
+1974,"Oct","Agades",NA
+1974,"Oct","Birni N'Konni",0.241935483870968
+1974,"Oct","Niamey_Aero",0.725806451612903
+1974,"Oct","Zinder",0.296774193548387
+1974,"Nov","Agades",0
+1974,"Nov","Birni N'Konni",0
+1974,"Nov","Niamey_Aero",0
+1974,"Nov","Zinder",0
+1974,"Dec","Agades",0
+1974,"Dec","Birni N'Konni",0
+1974,"Dec","Niamey_Aero",0
+1974,"Dec","Zinder",0
+1975,"Jan","Agades",0
+1975,"Jan","Birni N'Konni",0
+1975,"Jan","Niamey_Aero",0
+1975,"Jan","Zinder",0
+1975,"Feb","Agades",0
+1975,"Feb","Birni N'Konni",0
+1975,"Feb","Niamey_Aero",0
+1975,"Feb","Zinder",0
+1975,"Mar","Agades",0.0032258064516129
+1975,"Mar","Birni N'Konni",0
+1975,"Mar","Niamey_Aero",0
+1975,"Mar","Zinder",0
+1975,"Apr","Agades",0
+1975,"Apr","Birni N'Konni",0.27
+1975,"Apr","Niamey_Aero",0.123333333333333
+1975,"Apr","Zinder",0
+1975,"May","Agades",0.635483870967742
+1975,"May","Birni N'Konni",0.861290322580645
+1975,"May","Niamey_Aero",2.16774193548387
+1975,"May","Zinder",0.309677419354839
+1975,"Jun","Agades",0.116666666666667
+1975,"Jun","Birni N'Konni",1.20666666666667
+1975,"Jun","Niamey_Aero",2.76333333333333
+1975,"Jun","Zinder",0.26
+1975,"Jul","Agades",2.29032258064516
+1975,"Jul","Birni N'Konni",2.72258064516129
+1975,"Jul","Niamey_Aero",6.27741935483871
+1975,"Jul","Zinder",4.41612903225806
+1975,"Aug","Agades",NA
+1975,"Aug","Birni N'Konni",NA
+1975,"Aug","Niamey_Aero",NA
+1975,"Aug","Zinder",NA
+1975,"Sep","Agades",0.173333333333333
+1975,"Sep","Birni N'Konni",2.86333333333333
+1975,"Sep","Niamey_Aero",2.63666666666667
+1975,"Sep","Zinder",1.94666666666667
+1975,"Oct","Agades",0
+1975,"Oct","Birni N'Konni",0
+1975,"Oct","Niamey_Aero",0
+1975,"Oct","Zinder",0
+1975,"Nov","Agades",0
+1975,"Nov","Birni N'Konni",0
+1975,"Nov","Niamey_Aero",0
+1975,"Nov","Zinder",0
+1975,"Dec","Agades",0
+1975,"Dec","Birni N'Konni",0
+1975,"Dec","Niamey_Aero",0
+1975,"Dec","Zinder",0
+1976,"Jan","Agades",0
+1976,"Jan","Birni N'Konni",0
+1976,"Jan","Niamey_Aero",0
+1976,"Jan","Zinder",0
+1976,"Feb","Agades",0.0482758620689655
+1976,"Feb","Birni N'Konni",0
+1976,"Feb","Niamey_Aero",0
+1976,"Feb","Zinder",0
+1976,"Mar","Agades",0
+1976,"Mar","Birni N'Konni",0
+1976,"Mar","Niamey_Aero",0
+1976,"Mar","Zinder",0
+1976,"Apr","Agades",0
+1976,"Apr","Birni N'Konni",0
+1976,"Apr","Niamey_Aero",0
+1976,"Apr","Zinder",0
+1976,"May","Agades",0
+1976,"May","Birni N'Konni",1.05483870967742
+1976,"May","Niamey_Aero",2.48387096774194
+1976,"May","Zinder",0.167741935483871
+1976,"Jun","Agades",0.593333333333333
+1976,"Jun","Birni N'Konni",NA
+1976,"Jun","Niamey_Aero",2.38
+1976,"Jun","Zinder",2.96666666666667
+1976,"Jul","Agades",0.803225806451613
+1976,"Jul","Birni N'Konni",4.60967741935484
+1976,"Jul","Niamey_Aero",3.69354838709677
+1976,"Jul","Zinder",3.30645161290323
+1976,"Aug","Agades",1.35161290322581
+1976,"Aug","Birni N'Konni",3.7
+1976,"Aug","Niamey_Aero",6.94193548387097
+1976,"Aug","Zinder",3.11290322580645
+1976,"Sep","Agades",0.673333333333333
+1976,"Sep","Birni N'Konni",2.58333333333333
+1976,"Sep","Niamey_Aero",2.74
+1976,"Sep","Zinder",3.46
+1976,"Oct","Agades",0.0129032258064516
+1976,"Oct","Birni N'Konni",2.64516129032258
+1976,"Oct","Niamey_Aero",0.938709677419355
+1976,"Oct","Zinder",NA
+1976,"Nov","Agades",0
+1976,"Nov","Birni N'Konni",0
+1976,"Nov","Niamey_Aero",0
+1976,"Nov","Zinder",0
+1976,"Dec","Agades",0
+1976,"Dec","Birni N'Konni",0
+1976,"Dec","Niamey_Aero",0
+1976,"Dec","Zinder",0
+1977,"Jan","Agades",0
+1977,"Jan","Birni N'Konni",0
+1977,"Jan","Niamey_Aero",0
+1977,"Jan","Zinder",0
+1977,"Feb","Agades",0
+1977,"Feb","Birni N'Konni",0
+1977,"Feb","Niamey_Aero",0
+1977,"Feb","Zinder",0
+1977,"Mar","Agades",0.0032258064516129
+1977,"Mar","Birni N'Konni",0.00645161290322581
+1977,"Mar","Niamey_Aero",0.0290322580645161
+1977,"Mar","Zinder",0
+1977,"Apr","Agades",0
+1977,"Apr","Birni N'Konni",0
+1977,"Apr","Niamey_Aero",0
+1977,"Apr","Zinder",0
+1977,"May","Agades",0.116129032258065
+1977,"May","Birni N'Konni",0.816129032258064
+1977,"May","Niamey_Aero",1.33870967741935
+1977,"May","Zinder",0
+1977,"Jun","Agades",0.00333333333333333
+1977,"Jun","Birni N'Konni",1.80333333333333
+1977,"Jun","Niamey_Aero",1.72
+1977,"Jun","Zinder",0.25
+1977,"Jul","Agades",0.774193548387097
+1977,"Jul","Birni N'Konni",6.25806451612903
+1977,"Jul","Niamey_Aero",7.14516129032258
+1977,"Jul","Zinder",2.04516129032258
+1977,"Aug","Agades",NA
+1977,"Aug","Birni N'Konni",7.0741935483871
+1977,"Aug","Niamey_Aero",6.83548387096774
+1977,"Aug","Zinder",5.18387096774194
+1977,"Sep","Agades",0.29
+1977,"Sep","Birni N'Konni",1.63666666666667
+1977,"Sep","Niamey_Aero",0.913333333333333
+1977,"Sep","Zinder",0.843333333333333
+1977,"Oct","Agades",0
+1977,"Oct","Birni N'Konni",0
+1977,"Oct","Niamey_Aero",0
+1977,"Oct","Zinder",0
+1977,"Nov","Agades",0
+1977,"Nov","Birni N'Konni",0
+1977,"Nov","Niamey_Aero",0
+1977,"Nov","Zinder",0
+1977,"Dec","Agades",0
+1977,"Dec","Birni N'Konni",0
+1977,"Dec","Niamey_Aero",0
+1977,"Dec","Zinder",0
+1978,"Jan","Agades",0
+1978,"Jan","Birni N'Konni",0
+1978,"Jan","Niamey_Aero",0
+1978,"Jan","Zinder",0
+1978,"Feb","Agades",0
+1978,"Feb","Birni N'Konni",0
+1978,"Feb","Niamey_Aero",0
+1978,"Feb","Zinder",0
+1978,"Mar","Agades",0
+1978,"Mar","Birni N'Konni",0.0354838709677419
+1978,"Mar","Niamey_Aero",0.974193548387097
+1978,"Mar","Zinder",0
+1978,"Apr","Agades",0.0133333333333333
+1978,"Apr","Birni N'Konni",0.593333333333333
+1978,"Apr","Niamey_Aero",1.8
+1978,"Apr","Zinder",0.00666666666666667
+1978,"May","Agades",0.145161290322581
+1978,"May","Birni N'Konni",1.09032258064516
+1978,"May","Niamey_Aero",2.10322580645161
+1978,"May","Zinder",0.103225806451613
+1978,"Jun","Agades",0.0866666666666667
+1978,"Jun","Birni N'Konni",4.04333333333333
+1978,"Jun","Niamey_Aero",3.3
+1978,"Jun","Zinder",0.76
+1978,"Jul","Agades",1.97741935483871
+1978,"Jul","Birni N'Konni",NA
+1978,"Jul","Niamey_Aero",3.10967741935484
+1978,"Jul","Zinder",6.8741935483871
+1978,"Aug","Agades",0.7
+1978,"Aug","Birni N'Konni",4.24193548387097
+1978,"Aug","Niamey_Aero",6.50645161290323
+1978,"Aug","Zinder",10.2935483870968
+1978,"Sep","Agades",0.303333333333333
+1978,"Sep","Birni N'Konni",2.32
+1978,"Sep","Niamey_Aero",3.40333333333333
+1978,"Sep","Zinder",1.45
+1978,"Oct","Agades",0
+1978,"Oct","Birni N'Konni",0.667741935483871
+1978,"Oct","Niamey_Aero",0.758064516129032
+1978,"Oct","Zinder",0.170967741935484
+1978,"Nov","Agades",0
+1978,"Nov","Birni N'Konni",0
+1978,"Nov","Niamey_Aero",0
+1978,"Nov","Zinder",0
+1978,"Dec","Agades",0
+1978,"Dec","Birni N'Konni",0
+1978,"Dec","Niamey_Aero",0
+1978,"Dec","Zinder",0
+1979,"Jan","Agades",0
+1979,"Jan","Birni N'Konni",0
+1979,"Jan","Niamey_Aero",0
+1979,"Jan","Zinder",0
+1979,"Feb","Agades",0
+1979,"Feb","Birni N'Konni",0
+1979,"Feb","Niamey_Aero",0
+1979,"Feb","Zinder",0
+1979,"Mar","Agades",0
+1979,"Mar","Birni N'Konni",0.00645161290322581
+1979,"Mar","Niamey_Aero",0.0580645161290323
+1979,"Mar","Zinder",0
+1979,"Apr","Agades",0
+1979,"Apr","Birni N'Konni",0
+1979,"Apr","Niamey_Aero",0.02
+1979,"Apr","Zinder",0.0166666666666667
+1979,"May","Agades",0.0967741935483871
+1979,"May","Birni N'Konni",2.06129032258064
+1979,"May","Niamey_Aero",2.1
+1979,"May","Zinder",0.512903225806452
+1979,"Jun","Agades",0.163333333333333
+1979,"Jun","Birni N'Konni",3.40333333333333
+1979,"Jun","Niamey_Aero",1.97
+1979,"Jun","Zinder",2.71333333333333
+1979,"Jul","Agades",0.983870967741935
+1979,"Jul","Birni N'Konni",5.79677419354839
+1979,"Jul","Niamey_Aero",6.75483870967742
+1979,"Jul","Zinder",4.70967741935484
+1979,"Aug","Agades",1.99032258064516
+1979,"Aug","Birni N'Konni",3.5
+1979,"Aug","Niamey_Aero",4.12258064516129
+1979,"Aug","Zinder",3.82258064516129
+1979,"Sep","Agades",0.273333333333333
+1979,"Sep","Birni N'Konni",1.39
+1979,"Sep","Niamey_Aero",2.32333333333333
+1979,"Sep","Zinder",2.58
+1979,"Oct","Agades",0
+1979,"Oct","Birni N'Konni",0
+1979,"Oct","Niamey_Aero",0.12258064516129
+1979,"Oct","Zinder",0.1
+1979,"Nov","Agades",0
+1979,"Nov","Birni N'Konni",0.00333333333333333
+1979,"Nov","Niamey_Aero",0.183333333333333
+1979,"Nov","Zinder",0
+1979,"Dec","Agades",0
+1979,"Dec","Birni N'Konni",0
+1979,"Dec","Niamey_Aero",0
+1979,"Dec","Zinder",0
+1980,"Jan","Agades",0
+1980,"Jan","Birni N'Konni",0
+1980,"Jan","Niamey_Aero",0
+1980,"Jan","Zinder",0
+1980,"Feb","Agades",0
+1980,"Feb","Birni N'Konni",0
+1980,"Feb","Niamey_Aero",0
+1980,"Feb","Zinder",0
+1980,"Mar","Agades",0
+1980,"Mar","Birni N'Konni",0
+1980,"Mar","Niamey_Aero",0
+1980,"Mar","Zinder",0
+1980,"Apr","Agades",0
+1980,"Apr","Birni N'Konni",0.366666666666667
+1980,"Apr","Niamey_Aero",NA
+1980,"Apr","Zinder",0
+1980,"May","Agades",NA
+1980,"May","Birni N'Konni",1.19354838709677
+1980,"May","Niamey_Aero",0.929032258064516
+1980,"May","Zinder",0.67741935483871
+1980,"Jun","Agades",1.18
+1980,"Jun","Birni N'Konni",3.01
+1980,"Jun","Niamey_Aero",2.78666666666667
+1980,"Jun","Zinder",2.5
+1980,"Jul","Agades",1.20645161290323
+1980,"Jul","Birni N'Konni",4.92903225806452
+1980,"Jul","Niamey_Aero",3.42903225806452
+1980,"Jul","Zinder",9.39354838709677
+1980,"Aug","Agades",1.59677419354839
+1980,"Aug","Birni N'Konni",5.1
+1980,"Aug","Niamey_Aero",3.88709677419355
+1980,"Aug","Zinder",3.86451612903226
+1980,"Sep","Agades",0
+1980,"Sep","Birni N'Konni",1.07666666666667
+1980,"Sep","Niamey_Aero",2.79666666666667
+1980,"Sep","Zinder",0.556666666666667
+1980,"Oct","Agades",0
+1980,"Oct","Birni N'Konni",0
+1980,"Oct","Niamey_Aero",0.170967741935484
+1980,"Oct","Zinder",0.0032258064516129
+1980,"Nov","Agades",0
+1980,"Nov","Birni N'Konni",0
+1980,"Nov","Niamey_Aero",0
+1980,"Nov","Zinder",0
+1980,"Dec","Agades",0
+1980,"Dec","Birni N'Konni",NA
+1980,"Dec","Niamey_Aero",0
+1980,"Dec","Zinder",0
