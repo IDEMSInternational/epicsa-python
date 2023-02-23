@@ -1,0 +1,49 @@
+station_name,year,month,max_tmax,min_tmax
+Agades,1950,Apr,42.4,33.5
+Agades,1950,Aug,40.0,28.6
+Agades,1950,Dec,34.6,28.4
+Agades,1950,Feb,35.8,25.0
+Agades,1950,Jan,36.2,20.4
+Agades,1950,Jul,43.3,34.0
+Agades,1950,Jun,44.2,39.7
+Agades,1950,Mar,39.6,29.6
+Agades,1950,May,44.2,40.5
+Agades,1950,Nov,37.6,25.5
+Agades,1950,Oct,41.3,36.0
+Agades,1950,Sep,39.7,33.7
+Birni N'Konni,1950,Apr,43.0,37.4
+Birni N'Konni,1950,Aug,35.8,25.4
+Birni N'Konni,1950,Dec,37.2,30.4
+Birni N'Konni,1950,Feb,38.9,26.8
+Birni N'Konni,1950,Jan,37.8,25.4
+Birni N'Konni,1950,Jul,39.8,27.4
+Birni N'Konni,1950,Jun,42.1,35.6
+Birni N'Konni,1950,Mar,41.5,34.4
+Birni N'Konni,1950,May,43.0,38.0
+Birni N'Konni,1950,Nov,39.3,28.0
+Birni N'Konni,1950,Oct,39.4,28.8
+Birni N'Konni,1950,Sep,37.7,29.4
+Niamey_Aero,1950,Apr,44.0,39.0
+Niamey_Aero,1950,Aug,34.8,29.0
+Niamey_Aero,1950,Dec,36.5,30.6
+Niamey_Aero,1950,Feb,39.0,29.0
+Niamey_Aero,1950,Jan,37.2,27.6
+Niamey_Aero,1950,Jul,40.2,31.6
+Niamey_Aero,1950,Jun,41.4,37.0
+Niamey_Aero,1950,Mar,42.3,35.2
+Niamey_Aero,1950,May,43.8,38.6
+Niamey_Aero,1950,Nov,39.2,31.2
+Niamey_Aero,1950,Oct,38.8,30.0
+Niamey_Aero,1950,Sep,36.2,26.8
+Zinder,1950,Apr,41.0,32.6
+Zinder,1950,Aug,33.0,27.0
+Zinder,1950,Dec,36.2,26.2
+Zinder,1950,Feb,36.4,24.4
+Zinder,1950,Jan,35.6,21.2
+Zinder,1950,Jul,40.0,28.2
+Zinder,1950,Jun,40.8,36.0
+Zinder,1950,Mar,38.4,29.4
+Zinder,1950,May,42.0,36.2
+Zinder,1950,Nov,37.6,24.8
+Zinder,1950,Oct,38.0,32.8
+Zinder,1950,Sep,36.4,26.5

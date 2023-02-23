@@ -1,0 +1,2 @@
+# ignore temporary test result files (but do not ignore the directory where they're stored)
+results_actual/*

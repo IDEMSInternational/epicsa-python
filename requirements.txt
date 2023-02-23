@@ -1,0 +1,7 @@
+pandas
+pillow
+click
+setuptools
+numpy
+rpy2
+pygeoapi
