@@ -68,6 +68,7 @@ r_epicsawrap = packages.importr("epicsawrap")
 
 
 def annual_rainfall_summaries(
+    country: str,
     station_id: str,
     summaries: List[str] = None,
 ) -> DataFrame:
@@ -79,9 +80,13 @@ def annual_rainfall_summaries(
             "end_season",
             "length_season",
         ]
+    r('setwd("C:/Users/steph/Desktop/FirefoxDownloads/epicsa_test")')
+    r("library(epicsawrap)")
+    r('gcs_auth_file("e-picsa-e630400792e7.json")')
 
     r_params: Dict = __get_r_params(locals())
     r_data_frame: RDataFrame = r_epicsawrap.annual_rainfall_summaries(
+        country=r_params["country"],
         station_id=r_params["station_id"],
         summaries=r_params["summaries"],
     )
