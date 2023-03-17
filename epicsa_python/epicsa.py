@@ -64,10 +64,13 @@ from rpy2.robjects.vectors import FloatVector, ListVector, StrVector
 
 r_cdms_products = packages.importr("cdms.products")
 r_ggplot2 = packages.importr("ggplot2")
+r_base = packages.importr("base")
 r_epicsawrap = packages.importr("epicsawrap")
+r_epicsadata = packages.importr("epicsadata")
 
 
 def annual_rainfall_summaries(
+    country: str,
     station_id: str,
     summaries: List[str] = None,
 ) -> DataFrame:
@@ -80,8 +83,13 @@ def annual_rainfall_summaries(
             "length_season",
         ]
 
+    # TODO extract to private function
+    r_base.setwd("C:/Users/steph/Desktop/FirefoxDownloads/epicsa_test") #TODO make parameter
+    r_epicsadata.gcs_auth_file("e-picsa-e630400792e7.json") #TODO make parameter
+
     r_params: Dict = __get_r_params(locals())
     r_data_frame: RDataFrame = r_epicsawrap.annual_rainfall_summaries(
+        country=r_params["country"],
         station_id=r_params["station_id"],
         summaries=r_params["summaries"],
     )
