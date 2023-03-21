@@ -67,6 +67,23 @@ Linux
 sudo Rscript install_packages.R
 ```
 
+**Working Folder**
+
+In order to run the package, you will need to create the following folder structure in the main repository folder (i.e. the folder where this `README.md` file is stored).
+
+```
+working_data
+working_data/zm
+working_data/zm/data
+```
+Note: `zm` is the country code for Zambia. You will need different/additional `<country_code>/data` folders depending on the data you specify for calculations.
+
+You will also need to add the following authorization file:
+
+```
+working_data/service-account.json
+```
+
 ## Running Tests
 
 ```py
