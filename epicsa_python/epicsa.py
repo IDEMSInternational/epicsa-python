@@ -1564,5 +1564,5 @@ def __convert_posixt_to_r_date(r_data_frame: RDataFrame) -> RDataFrame:
 
 
 def __init_data_env():
-    r_base.setwd("working_data")
-    r_epicsadata.gcs_auth_file("service-account.json")
+    r_epicsawrap.setup("working_data")
+    r_epicsadata.gcs_auth_file("../service-account.json")
