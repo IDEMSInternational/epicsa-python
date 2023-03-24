@@ -44,6 +44,7 @@ Each wrapper function:
     function. If needed, it converts the returned result into a Python data 
     type.
 """
+import os
 from typing import Dict, List
 
 from numpy import integer
@@ -1564,5 +1565,19 @@ def __convert_posixt_to_r_date(r_data_frame: RDataFrame) -> RDataFrame:
 
 
 def __init_data_env():
-    r_epicsawrap.setup("working_data")
-    r_epicsadata.gcs_auth_file("../service-account.json")
+    # ensure that this function is only called once per session
+    # (because it relies on the current working folder when session started)
+    if not hasattr(__init_data_env, "called"):
+        __init_data_env.called = True
+    else:
+        return
+
+    working_folder = os.getcwd()
+
+    service_file: str = os.path.join(working_folder, "service-account.json")
+    service_file = os.path.normpath(service_file).replace("\\", "/")
+    r_epicsadata.gcs_auth_file(service_file)
+
+    data_folder: str = os.path.join(working_folder, "working_data")
+    data_folder = os.path.normpath(data_folder).replace("\\", "/")
+    r_epicsawrap.setup(data_folder)
