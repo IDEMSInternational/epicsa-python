@@ -99,6 +99,8 @@ output_path_actual: str = os.path.join(TEST_DIR, "results_actual")
 
 def test_annual_rainfall_summaries():
     actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122")
+    # actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
+    #         summaries = c("annual_rain", "start_rains", "end_rains"))
 
     assert __is_expected_dataframe(
         data=actual, file_name="annual_rainfall_summaries_actual010.csv"

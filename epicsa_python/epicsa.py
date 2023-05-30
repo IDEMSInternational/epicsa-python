@@ -57,7 +57,7 @@ from rpy2.robjects import (
     r,
 )
 from rpy2.robjects.vectors import DataFrame as RDataFrame
-from rpy2.robjects.vectors import FloatVector, StrVector
+from rpy2.robjects.vectors import FloatVector, ListVector, StrVector
 
 r_epicsawrap = packages.importr("epicsawrap")
 r_epicsadata = packages.importr("epicsadata")
@@ -70,20 +70,19 @@ def annual_rainfall_summaries(
 ) -> DataFrame:
     if summaries is None:
         summaries = [
-            "seasonal_rainfall",
-            "seasonal_raindays",
+            "annual_rain",
             "start_rains",
-            "end_season",
-            "length_season",
+            "end_rains",
         ]
 
     __init_data_env()
     r_params: Dict = __get_r_params(locals())
-    r_data_frame: RDataFrame = r_epicsawrap.annual_rainfall_summaries(
+    r_list_vector: ListVector = r_epicsawrap.annual_rainfall_summaries(
         country=r_params["country"],
         station_id=r_params["station_id"],
         summaries=r_params["summaries"],
     )
+    r_data_frame = r_list_vector[1]
     return __get_data_frame(r_data_frame)
 
 
