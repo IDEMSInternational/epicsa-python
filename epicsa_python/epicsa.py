@@ -45,7 +45,7 @@ Each wrapper function:
     type.
 """
 import os
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from pandas import DataFrame
 from rpy2.robjects import NULL as r_NULL
 from rpy2.robjects import (
@@ -82,8 +82,15 @@ def annual_rainfall_summaries(
         station_id=r_params["station_id"],
         summaries=r_params["summaries"],
     )
+    r_meta_data = r_list_vector[0]
     r_data_frame = r_list_vector[1]
-    return __get_data_frame(r_data_frame)
+
+    country: str = r_meta_data[0]
+    station_id: str = r_meta_data[1]
+    summaries: List[str] = r_meta_data[2]
+    data_frame: DataFrame = __get_data_frame(r_data_frame)
+    summaries: Tuple[Tuple[str, str, List[str]], DataFrame] = ((country, station_id, summaries), data_frame)
+    return summaries
 
 
 def __get_r_params(params: Dict) -> Dict:
