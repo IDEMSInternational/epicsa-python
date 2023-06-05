@@ -102,6 +102,11 @@ def test_annual_rainfall_summaries():
     # actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
     #         summaries = c("annual_rain", "start_rains", "end_rains"))
 
+    output_file_actual, output_file_expected = __get_output_file_paths("annual_rainfall_summaries_actual010.json")
+
+    with open(output_file_actual, 'w') as f:
+        f.write(actual)
+
     assert __is_expected_dataframe(
         data=actual, file_name="annual_rainfall_summaries_actual010.csv"
     )

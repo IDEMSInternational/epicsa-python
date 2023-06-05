@@ -44,7 +44,7 @@ Each wrapper function:
     function. If needed, it converts the returned result into a Python data 
     type.
 """
-import os
+import json, os
 from typing import Dict, List, Tuple
 from pandas import DataFrame
 from rpy2.robjects import NULL as r_NULL
@@ -59,6 +59,18 @@ from rpy2.robjects import (
 from rpy2.robjects.vectors import DataFrame as RDataFrame
 from rpy2.robjects.vectors import FloatVector, ListVector, StrVector
 
+# TODO
+from rpy2.robjects.vectors import (
+    DataFrame,
+    FloatVector,
+    IntVector,
+    StrVector,
+    ListVector,
+    Matrix,
+)
+from collections import OrderedDict
+import numpy as np
+
 r_epicsawrap = packages.importr("epicsawrap")
 r_epicsadata = packages.importr("epicsadata")
 
@@ -67,7 +79,7 @@ def annual_rainfall_summaries(
     country: str,
     station_id: str,
     summaries: List[str] = None,
-) -> DataFrame:
+) -> Tuple[Tuple[str, str, List[str]], DataFrame]:  # todo
     if summaries is None:
         summaries = [
             "annual_rain",
@@ -82,15 +94,63 @@ def annual_rainfall_summaries(
         station_id=r_params["station_id"],
         summaries=r_params["summaries"],
     )
-    r_meta_data = r_list_vector[0]
-    r_data_frame = r_list_vector[1]
 
-    country: str = r_meta_data[0]
-    station_id: str = r_meta_data[1]
-    summaries: List[str] = r_meta_data[2]
-    data_frame: DataFrame = __get_data_frame(r_data_frame)
-    summaries: Tuple[Tuple[str, str, List[str]], DataFrame] = ((country, station_id, summaries), data_frame)
-    return summaries
+    todo_dataframe = __get_data_frame(r_list_vector[1])
+    todo_dict = OrderedDict(
+        [
+            ("metadata", recurse_r_tree(r_list_vector[0])),
+            ("data", todo_dataframe),
+        ]
+    )
+    # based on suggestion from @unutbu
+    # See https://stackoverflow.com/questions/26244323/convert-pandas-dataframe-to-json-as-element-of-larger-data-structure
+    todo_json = json.dumps(
+        todo_dict,
+        default=lambda todo_dataframe: json.loads(todo_dataframe.to_json()),
+        indent=4,
+    )
+
+    # todo_json0 = json.dumps(recurse_r_tree(r_list_vector[0]))
+    # todo_json1 = __get_data_frame(r_list_vector[1]).to_json(indent=4)
+    # todo_json = json.dumps(todo_dict, indent=4)
+    return todo_json
+
+
+# based on function from @user3324315
+# See https://stackoverflow.com/questions/24152160/converting-an-rpy2-listvector-to-a-python-dictionary
+def recurse_r_tree(data):
+    """
+    step through an R object recursively and convert the types to python types as appropriate.
+    Leaves will be converted to e.g. numpy arrays or lists as appropriate and the whole tree to a dictionary.
+    """
+    r_array_types = [FloatVector, IntVector, Matrix]
+    r_list_types = [StrVector]
+    r_list_vector_types = [ListVector]
+    r_data_frame_types = [RDataFrame]
+
+    if type(data) is r_NULL:
+        return
+    if type(data) in r_data_frame_types:
+        return __get_data_frame(data)
+    elif type(data) in r_list_vector_types:
+        if type(data.names) is r_NULL:
+            return None
+        return OrderedDict(zip(data.names, [recurse_r_tree(elt) for elt in data]))
+    elif type(data) in r_list_types:
+        return [recurse_r_tree(elt) for elt in data]
+    elif type(data) in r_array_types:
+        a = np.array(data)
+        b = a.tolist()
+        return b
+    else:
+        if hasattr(data, "rclass"):  # An unsupported r class
+            raise KeyError(
+                "Could not proceed, type {} is not defined"
+                "to add support for this type, just add it to the imports "
+                "and to the appropriate type list above".format(type(data))
+            )
+        else:
+            return data  # We reached the end of recursion
 
 
 def __get_r_params(params: Dict) -> Dict:
