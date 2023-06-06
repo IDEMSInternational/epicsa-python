@@ -84,55 +84,19 @@ actual <- export_cdt(
 ```
 """
 
-import filecmp
 import os
-
-from pandas import DataFrame, read_csv
-
 from epicsa_python import epicsa
-
-# from opencdms_process.process.rinstat import epicsa
 
 TEST_DIR = os.path.dirname(__file__)
 output_path_actual: str = os.path.join(TEST_DIR, "results_actual")
 
 
 def test_annual_rainfall_summaries():
-    actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122")
+    actual = epicsa.annual_rainfall_summaries(country="zm", station_id="01122")
     # actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
     #         summaries = c("annual_rain", "start_rains", "end_rains"))
 
-    output_file_actual, output_file_expected = __get_output_file_paths("annual_rainfall_summaries_actual010.json")
-
-    with open(output_file_actual, 'w') as f:
-        f.write(actual)
-
-    assert __is_expected_dataframe(
-        data=actual, file_name="annual_rainfall_summaries_actual010.csv"
-    )
-
-
-def __is_expected_dataframe(data: DataFrame, file_name: str) -> bool:
-    output_file_actual, output_file_expected = __get_output_file_paths(file_name)
-
-    # write the actual results to csv file, and then read the results back in again
-    # Note:We read the expected results from a csv file. Writing/reading this file may change the
-    #      data frame's meta data. Therefore, we must also write/read the actual results to csv so
-    #      that we are comparing like with like.
-    data.to_csv(output_file_actual, index=False)
-    actual_from_csv: DataFrame = read_csv(output_file_actual)
-
-    # read the expected reults from csv file
-    expected_from_csv: DataFrame = read_csv(output_file_expected)
-
-    # return if actual equals expected
-    diffs: DataFrame = actual_from_csv.compare(expected_from_csv)
-    return diffs.empty
-
-
-def __is_expected_file(file_name: str) -> bool:
-    output_file_actual, output_file_expected = __get_output_file_paths(file_name)
-    return filecmp.cmp(output_file_actual, output_file_expected)
+    assert __is_expected_json(actual, "annual_rainfall_summaries_actual010.json")
 
 
 def __get_output_file_paths(file_name: str):
@@ -141,3 +105,15 @@ def __get_output_file_paths(file_name: str):
         TEST_DIR, "results_expected", file_name.replace("actual", "expected")
     )
     return output_file_actual, output_file_expected
+
+
+def __is_expected_json(actual: str, file_name: str) -> bool:
+    output_file_actual, output_file_expected = __get_output_file_paths(file_name)
+
+    with open(output_file_actual, "w") as f:
+        f.write(actual)
+
+    with open(output_file_expected, "r") as f:
+        expected = f.read()
+
+    return actual == expected
