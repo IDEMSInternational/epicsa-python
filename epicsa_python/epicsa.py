@@ -58,7 +58,7 @@ from rpy2.robjects import (
 )
 from rpy2.robjects.vectors import DataFrame as RDataFrame
 from rpy2.robjects.vectors import FloatVector, IntVector, ListVector, StrVector
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 r_epicsawrap = packages.importr("epicsawrap")
 r_epicsadata = packages.importr("epicsadata")

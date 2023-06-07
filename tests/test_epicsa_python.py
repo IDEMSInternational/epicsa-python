@@ -93,10 +93,15 @@ output_path_actual: str = os.path.join(TEST_DIR, "results_actual")
 
 def test_annual_rainfall_summaries():
     actual = epicsa.annual_rainfall_summaries(country="zm", station_id="01122")
-    # actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
-    #         summaries = c("annual_rain", "start_rains", "end_rains"))
-
     assert __is_expected_json(actual, "annual_rainfall_summaries_actual010.json")
+
+    actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
+            summaries = ["annual_rain", "start_rains", "end_rains"])
+    assert __is_expected_json(actual, "annual_rainfall_summaries_actual020.json")
+
+    actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
+            summaries = ["annual_rain"])
+    assert __is_expected_json(actual, "annual_rainfall_summaries_actual030.json")
 
 
 def __get_output_file_paths(file_name: str):
