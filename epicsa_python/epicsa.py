@@ -44,8 +44,8 @@ Each wrapper function:
     function. If needed, it converts the returned result into a Python data 
     type.
 """
-import os
-from typing import Dict, List
+import json, numpy, os
+from collections import OrderedDict
 from pandas import DataFrame
 from rpy2.robjects import NULL as r_NULL
 from rpy2.robjects import (
@@ -57,7 +57,8 @@ from rpy2.robjects import (
     r,
 )
 from rpy2.robjects.vectors import DataFrame as RDataFrame
-from rpy2.robjects.vectors import FloatVector, StrVector
+from rpy2.robjects.vectors import FloatVector, IntVector, ListVector, StrVector
+from typing import Dict, List
 
 r_epicsawrap = packages.importr("epicsawrap")
 r_epicsadata = packages.importr("epicsadata")
@@ -67,24 +68,102 @@ def annual_rainfall_summaries(
     country: str,
     station_id: str,
     summaries: List[str] = None,
-) -> DataFrame:
+) -> str:
     if summaries is None:
         summaries = [
-            "seasonal_rainfall",
-            "seasonal_raindays",
+            "annual_rain",
             "start_rains",
-            "end_season",
-            "length_season",
+            "end_rains",
         ]
 
     __init_data_env()
     r_params: Dict = __get_r_params(locals())
-    r_data_frame: RDataFrame = r_epicsawrap.annual_rainfall_summaries(
+    r_list_vector: ListVector = r_epicsawrap.annual_rainfall_summaries(
         country=r_params["country"],
         station_id=r_params["station_id"],
         summaries=r_params["summaries"],
     )
-    return __get_data_frame(r_data_frame)
+    return __get_list_vector_as_json(r_list_vector)
+
+
+def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
+    """Converts an R format data frame into a Python format data frame.
+
+    Converts 'r_data_frame' into a Python data frame and returns it.
+
+    Args:
+        r_data_frame: A data frame in rpy2 R format.
+
+    Returns:
+        The data frame converted into Python format.
+    """
+    # convert R data frame to pandas data frame
+    with conversion.localconverter(default_converter + pandas2ri.converter):
+        data_frame: DataFrame = conversion.get_conversion().rpy2py(r_data_frame)
+    return data_frame
+
+
+def __get_list_vector_as_json(r_list_vector: ListVector) -> str:
+    dataframe = __get_data_frame(r_list_vector[1])
+    result_as_dict = OrderedDict(
+        [
+            ("metadata", __get_python_types(r_list_vector[0])),
+            ("data", dataframe),
+        ]
+    )
+    # integration of data frame into Json is based on suggestion from @unutbu
+    # See https://stackoverflow.com/questions/26244323/convert-pandas-dataframe-to-json-as-element-of-larger-data-structure
+    result_as_json = json.dumps(
+        result_as_dict,
+        default=lambda dataframe: json.loads(dataframe.to_json()),
+        indent=4,
+    )
+
+    return result_as_json
+
+
+def __get_python_types(data):
+    """Converts a collection of rpy2 R objects into Json serializable Python objects.
+
+    Recursively converts each rpy2 R object in 'data'. Each R object will be converted to its
+    Python equivalent (integer, string, list, dictionary etc.). If 'data' is a hierarchy
+    (e.g. lists of lists), then the returned Python objects will follow the same hierarchy.
+
+    This function is based on a function from @user3324315, see
+    https://stackoverflow.com/questions/24152160/converting-an-rpy2-listvector-to-a-python-dictionary
+
+    Args:
+        data: A collection of rpy2 R objects.
+
+    Returns:
+        'data' represented as a collection of Json serializable Python types.
+    """
+    r_array_types = [FloatVector, IntVector]
+    r_list_types = [StrVector]
+    r_list_vector_types = [ListVector]
+    r_data_frame_types = [RDataFrame]
+
+    if type(data) in r_data_frame_types:
+        return __get_data_frame(data)
+    elif type(data) in r_list_vector_types:
+        converted_values = [__get_python_types(elt) for elt in data]
+        if data.names is r_NULL:
+            return converted_values
+        else:
+            return OrderedDict(zip(data.names, converted_values))
+    elif type(data) in r_list_types:
+        return [__get_python_types(elt) for elt in data]
+    elif type(data) in r_array_types:
+        return numpy.array(data).tolist()
+    else:
+        if hasattr(data, "rclass"):  # An unsupported r class
+            raise KeyError(
+                "Could not proceed, type {} is not defined"
+                "to add support for this type, just add it to the imports "
+                "and to the appropriate type list above".format(type(data))
+            )
+        else:
+            return data  # We reached the end of recursion
 
 
 def __get_r_params(params: Dict) -> Dict:
@@ -114,50 +193,10 @@ def __get_r_params(params: Dict) -> Dict:
                 elif isinstance(r_params[key][0], float):
                     r_params[key] = FloatVector(r_params[key])
         elif isinstance(r_params[key], DataFrame):
-            # TODO
-            # with ro.default_converter + pandas2ri.converter:
-            #     r_from_pd_df = ro.conversion.get_conversion().py2rpy(pd_df)
-            # with conversion.localconverter(default_converter + pandas2ri.converter):
-            #     r_params[key] = conversion.py2rpy(r_params[key])
             with default_converter + pandas2ri.converter:
                 r_params[key] = conversion.get_conversion().py2rpy(r_params[key])
 
     return r_params
-
-
-def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
-    """Converts an R format data frame into a Python format data frame.
-
-    Converts 'r_data_frame' into a Python data frame and returns it.
-
-    Args:
-        r_data_frame: A data frame in rpy2 R format.
-
-    Returns:
-        The data frame converted into Python format.
-    """
-    # convert R data frame to pandas data frame
-    with conversion.localconverter(default_converter + pandas2ri.converter):
-        data_frame: DataFrame = conversion.get_conversion().rpy2py(r_data_frame)
-    return data_frame
-
-
-def __convert_posixt_to_r_date(r_data_frame: RDataFrame) -> RDataFrame:
-    """Converts all Posix dates in a data frame, to 'Date` format.
-
-    Converts all Posix dates in 'r_data_frame' into R 'Date' format and returns the
-    updated R data frame.
-
-    Args:
-        r_data_frame: A data frame in rpy2 R format.
-
-    Returns:
-        The R data frame with all Posix dates converted into 'Date' format.
-    """
-    globalenv["df"] = r_data_frame
-    return r(
-        'data.frame(lapply(df, function(x) { if (inherits(x, "POSIXt")) as.Date(x) else x }))'
-    )
 
 
 def __init_data_env():
