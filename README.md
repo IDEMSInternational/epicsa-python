@@ -37,19 +37,15 @@ The scripts below will create a python [virtual environment](https://docs.python
 
 === "Windows (powershell)"
 
-    ``` ps1 linenums="1"
     python -m venv .venv
     .\.venv\Scripts\Activate.ps1
     pip install -r requirements.txt
-    ```
 
 === "Linux (bash)"
 
-    ```sh linenums="1"
     python -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
-    ```
 
 **R**
 
