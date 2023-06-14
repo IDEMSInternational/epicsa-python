@@ -83,8 +83,9 @@ actual <- export_cdt(
 )
 ```
 """
-
+import json
 import os
+from collections import OrderedDict
 from epicsa_python import epicsa
 
 TEST_DIR = os.path.dirname(__file__)
@@ -93,15 +94,25 @@ output_path_actual: str = os.path.join(TEST_DIR, "results_actual")
 
 def test_annual_rainfall_summaries():
     actual = epicsa.annual_rainfall_summaries(country="zm", station_id="01122")
-    assert __is_expected_json(actual, "annual_rainfall_summaries_actual010.json")
+    assert __is_expected_ordered_dict(
+        actual, "annual_rainfall_summaries_actual010.json"
+    )
 
-    actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
-            summaries = ["annual_rain", "start_rains", "end_rains"])
-    assert __is_expected_json(actual, "annual_rainfall_summaries_actual020.json")
+    actual = epicsa.annual_rainfall_summaries(
+        country="zm",
+        station_id="01122",
+        summaries=["annual_rain", "start_rains", "end_rains"],
+    )
+    assert __is_expected_ordered_dict(
+        actual, "annual_rainfall_summaries_actual020.json"
+    )
 
-    actual = epicsa.annual_rainfall_summaries(country = "zm", station_id = "01122",
-            summaries = ["annual_rain"])
-    assert __is_expected_json(actual, "annual_rainfall_summaries_actual030.json")
+    actual = epicsa.annual_rainfall_summaries(
+        country="zm", station_id="01122", summaries=["annual_rain"]
+    )
+    assert __is_expected_ordered_dict(
+        actual, "annual_rainfall_summaries_actual030.json"
+    )
 
 
 def __get_output_file_paths(file_name: str):
@@ -112,13 +123,21 @@ def __get_output_file_paths(file_name: str):
     return output_file_actual, output_file_expected
 
 
-def __is_expected_json(actual: str, file_name: str) -> bool:
+def __is_expected_ordered_dict(actual: OrderedDict, file_name: str) -> bool:
+    # integration of data frame into Json is based on example at
+    # https://stackoverflow.com/questions/26244323/convert-pandas-dataframe-to-json-as-element-of-larger-data-structure
+    actual_as_json = json.dumps(
+        actual,
+        default=lambda dataframe: json.loads(dataframe.to_json()),
+        indent=4,
+    )
+
     output_file_actual, output_file_expected = __get_output_file_paths(file_name)
 
     with open(output_file_actual, "w") as f:
-        f.write(actual)
+        f.write(actual_as_json)
 
     with open(output_file_expected, "r") as f:
         expected = f.read()
 
-    return actual == expected
+    return actual_as_json == expected
