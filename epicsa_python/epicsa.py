@@ -44,7 +44,7 @@ Each wrapper function:
     function. If needed, it converts the returned result into a Python data 
     type.
 """
-import json, numpy, os
+import numpy, os
 from collections import OrderedDict
 from pandas import DataFrame
 from rpy2.robjects import NULL as r_NULL
@@ -69,6 +69,7 @@ def annual_rainfall_summaries(
     station_id: str,
     summaries: List[str] = None,
 ) -> OrderedDict:
+    """TODO"""
     if summaries is None:
         summaries = [
             "annual_rain",
@@ -83,7 +84,7 @@ def annual_rainfall_summaries(
         station_id=r_params["station_id"],
         summaries=r_params["summaries"],
     )
-    return __get_list_vector_as_json(r_list_vector)
+    return __get_list_vector_as_ordered_dict(r_list_vector)
 
 
 def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
@@ -103,41 +104,33 @@ def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
     return data_frame
 
 
-def __get_list_vector_as_json(r_list_vector: ListVector) -> OrderedDict:
+def __get_list_vector_as_ordered_dict(r_list_vector: ListVector) -> OrderedDict:
+    """TODO"""
     dataframe = __get_data_frame(r_list_vector[1])
-    result_as_dict = OrderedDict(
+    r_list_as_dict = OrderedDict(
         [
             ("metadata", __get_python_types(r_list_vector[0])),
             ("data", dataframe),
         ]
     )
-    return result_as_dict
-    # integration of data frame into Json is based on suggestion from @unutbu
-    # See https://stackoverflow.com/questions/26244323/convert-pandas-dataframe-to-json-as-element-of-larger-data-structure
-    # result_as_json = json.dumps(
-    #     result_as_dict,
-    #     default=lambda dataframe: json.loads(dataframe.to_json()),
-    #     indent=4,
-    # )
-
-    # return result_as_json
+    return r_list_as_dict
 
 
 def __get_python_types(data):
-    """Converts a collection of rpy2 R objects into Json serializable Python objects.
+    """Converts a collection of rpy2 R objects into Python objects.
 
     Recursively converts each rpy2 R object in 'data'. Each R object will be converted to its
     Python equivalent (integer, string, list, dictionary etc.). If 'data' is a hierarchy
     (e.g. lists of lists), then the returned Python objects will follow the same hierarchy.
 
-    This function is based on a function from @user3324315, see
+    This function is based on a function from 
     https://stackoverflow.com/questions/24152160/converting-an-rpy2-listvector-to-a-python-dictionary
 
     Args:
         data: A collection of rpy2 R objects.
 
     Returns:
-        'data' represented as a collection of Json serializable Python types.
+        'data' represented as a collection of Python types.
     """
     r_array_types = [FloatVector, IntVector]
     r_list_types = [StrVector]
@@ -201,6 +194,7 @@ def __get_r_params(params: Dict) -> Dict:
 
 
 def __init_data_env():
+    """TODO"""
     # ensure that this function is only called once per session
     # (because it relies on the current working folder when session started)
     if not hasattr(__init_data_env, "called"):
