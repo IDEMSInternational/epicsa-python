@@ -87,6 +87,25 @@ def annual_rainfall_summaries(
     return __get_list_vector_as_ordered_dict(r_list_vector)
 
 
+def crop_success_probabilities(
+    country: str,
+    station_id: str,
+    summaries: List[str] = None,
+) -> OrderedDict:
+    """TODO"""
+    if summaries is None:
+        summaries = ["crops_success"]
+
+    __init_data_env()
+    r_params: Dict = __get_r_params(locals())
+    r_list_vector: ListVector = r_epicsawrap.crop_success_probabilities(
+        country=r_params["country"],
+        station_id=r_params["station_id"],
+        summaries=r_params["summaries"],
+    )
+    return __get_list_vector_as_ordered_dict(r_list_vector)
+
+
 def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
     """Converts an R format data frame into a Python format data frame.
 
@@ -123,7 +142,7 @@ def __get_python_types(data):
     Python equivalent (integer, string, list, dictionary etc.). If 'data' is a hierarchy
     (e.g. lists of lists), then the returned Python objects will follow the same hierarchy.
 
-    This function is based on a function from 
+    This function is based on a function from
     https://stackoverflow.com/questions/24152160/converting-an-rpy2-listvector-to-a-python-dictionary
 
     Args:
