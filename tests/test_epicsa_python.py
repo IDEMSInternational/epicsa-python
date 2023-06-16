@@ -122,6 +122,20 @@ def test_crop_success_probabilities():
     )
 
 
+def test_annual_temperature_summaries():
+    actual = epicsa.annual_temperature_summaries(country="zm", station_id="16")
+    assert __is_expected_ordered_dict(
+        actual, "annual_temperature_summaries_actual010.json"
+    )
+
+
+def test_monthly_temperature_summaries():
+    actual = epicsa.monthly_temperature_summaries(country="zm", station_id="16", summaries=["mean_tmin"])
+    assert __is_expected_ordered_dict(
+        actual, "monthly_temperature_summaries_actual010.json"
+    )
+
+
 def __get_output_file_paths(file_name: str):
     output_file_actual: str = os.path.join(TEST_DIR, "results_actual", file_name)
     output_file_expected: str = os.path.join(
