@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "start_rains": {
+            "threshold": [
+                0.85
+            ],
+            "start_day": [
+                92
+            ],
+            "end_day": [
+                150
+            ],
+            "output": [
+                "date"
+            ],
+            "total_rainfall": [
+                "TRUE"
+            ],
+            "amount_rain": [
+                25
+            ],
+            "over_days": [
+                3
+            ],
+            "proportion": [
+                "FALSE"
+            ],
+            "number_rain_days": [
+                "FALSE"
+            ],
+            "dry_spell": [
+                "TRUE"
+            ],
+            "spell_max_dry_days": [
+                10
+            ],
+            "spell_interval": [
+                30
+            ],
+            "dry_period": [
+                "FALSE"
+            ],
+            "_last_updated": [
+                "2022-11-25"
+            ]
+        },
+        "season_start_probabilities": {
+            "specified_day": {
+                "val1": [
+                    50
+                ],
+                "val2": [
+                    100
+                ],
+                "val3": [
+                    150
+                ]
+            }
+        }
+    },
+    "data": {
+        "station": {
+            "1": "CHIPATA MET",
+            "2": "LUNDAZI MET",
+            "3": "MFUWE MET",
+            "4": "MSEKERA AGROMET",
+            "5": "PETAUKE MET"
+        },
+        "proportion_50": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0
+        },
+        "proportion_100": {
+            "1": 0.0,
+            "2": 0.0447761194,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0
+        },
+        "proportion_150": {
+            "1": 0.0,
+            "2": 0.0447761194,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0
+        }
+    }
+}

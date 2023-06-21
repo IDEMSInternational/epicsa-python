@@ -144,6 +144,20 @@ def monthly_temperature_summaries(
     return __get_list_vector_as_ordered_dict(r_list_vector)
 
 
+def season_start_probabilities(
+    country: str,
+    station_id: str,
+) -> OrderedDict:
+    """TODO"""
+    __init_data_env()
+    r_params: Dict = __get_r_params(locals())
+    r_list_vector: ListVector = r_epicsawrap.season_start_probabilities(
+        country=r_params["country"],
+        station_id=r_params["station_id"],
+    )
+    return __get_list_vector_as_ordered_dict(r_list_vector)
+
+
 def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
     """Converts an R format data frame into a Python format data frame.
 

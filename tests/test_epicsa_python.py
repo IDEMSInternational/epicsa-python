@@ -144,6 +144,13 @@ def test_monthly_temperature_summaries():
     )
 
 
+def test_season_start_probabilities():
+    actual = epicsa.season_start_probabilities(country="zm", station_id="16")
+    assert __is_expected_ordered_dict(
+        actual, "season_start_probabilities_actual010.json"
+    )
+
+
 def __get_output_file_paths(file_name: str):
     output_file_actual: str = os.path.join(TEST_DIR, "results_actual", file_name)
     output_file_expected: str = os.path.join(
