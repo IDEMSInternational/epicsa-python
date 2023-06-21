@@ -1,5 +1,66 @@
 {
     "metadata": {
+        "start_rains": {
+            "threshold": [
+                0.85
+            ],
+            "start_day": [
+                92
+            ],
+            "end_day": [
+                150
+            ],
+            "output": [
+                "date"
+            ],
+            "total_rainfall": [
+                "TRUE"
+            ],
+            "amount_rain": [
+                25
+            ],
+            "over_days": [
+                3
+            ],
+            "proportion": [
+                "FALSE"
+            ],
+            "number_rain_days": [
+                "FALSE"
+            ],
+            "dry_spell": [
+                "TRUE"
+            ],
+            "spell_max_dry_days": [
+                10
+            ],
+            "spell_interval": [
+                30
+            ],
+            "dry_period": [
+                "FALSE"
+            ],
+            "_last_updated": [
+                "2022-11-25"
+            ]
+        },
+        "end_rains": {
+            "start_day": [
+                1
+            ],
+            "end_day": [
+                366
+            ],
+            "output": [
+                "date"
+            ],
+            "interval_length": [
+                1
+            ],
+            "min_rainfall": [
+                10
+            ]
+        },
         "crops_success": {
             "rain_totals": {
                 "val1": [
