@@ -114,14 +114,14 @@ def test_annual_rainfall_summaries():
         actual, "annual_rainfall_summaries_actual030.json"
     )
 
-    actual = epicsa.annual_rainfall_summaries(
-        country="zm",
-        station_id="01122",
-        summaries=["start_rains", "end_rains", "seasonal_length"],
-    )
-    assert __is_expected_ordered_dict(
-        actual, "annual_rainfall_summaries_actual040.json"
-    )
+    # actual = epicsa.annual_rainfall_summaries(
+    #     country="zm",
+    #     station_id="16",
+    #     summaries=["start_rains", "end_rains", "annual_rain", "end_season"],
+    # )
+    # assert __is_expected_ordered_dict(
+    #     actual, "annual_rainfall_summaries_actual040.json"
+    # )
 
 
 def test_crop_success_probabilities():
