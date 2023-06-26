@@ -167,16 +167,23 @@ def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
     # convert R data frame to pandas data frame
     with conversion.localconverter(default_converter + pandas2ri.converter):
         data_frame: DataFrame = conversion.get_conversion().rpy2py(r_data_frame)
+    
+    # The converter above converts missing integers to the smallest possible signed 32-bit 
+    #   integer (-2147483648). Convert these values to `None` instead
+    for col in data_frame.columns:
+        if numpy.issubdtype(data_frame[col].dtype, numpy.integer):
+            data_frame[col] = data_frame[col].replace(numpy.iinfo(numpy.int32).min, None)
+
     return data_frame
 
 
 def __get_list_vector_as_ordered_dict(r_list_vector: ListVector) -> OrderedDict:
     """TODO"""
-    dataframe = __get_data_frame(r_list_vector[1])
+    data_frame = __get_data_frame(r_list_vector[1])
     r_list_as_dict = OrderedDict(
         [
             ("metadata", __get_python_types(r_list_vector[0])),
-            ("data", dataframe),
+            ("data", data_frame),
         ]
     )
     return r_list_as_dict
