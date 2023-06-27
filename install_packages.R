@@ -1,6 +1,6 @@
 install.packages("devtools", repos = "http://cran.us.r-project.org")
 install.packages("rlang", repos = "http://cran.us.r-project.org")
 devtools::install_github("IDEMSInternational/cdms.products", ref = "2d4babe")
-devtools::install_github("IDEMSInternational/epicsawrap", ref = "30919df")
+devtools::install_github("IDEMSInternational/epicsawrap", ref = "f25f88e")
 devtools::install_github("IDEMSInternational/epicsadata", ref = "db742f9")
 q()

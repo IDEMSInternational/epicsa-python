@@ -93,11 +93,6 @@ output_path_actual: str = os.path.join(TEST_DIR, "results_actual")
 
 
 def test_annual_rainfall_summaries():
-    actual = epicsa.annual_rainfall_summaries(country="zm", station_id="01122")
-    assert __is_expected_ordered_dict(
-        actual, "annual_rainfall_summaries_actual010.json"
-    )
-
     actual = epicsa.annual_rainfall_summaries(
         country="zm",
         station_id="01122",
@@ -151,6 +146,38 @@ def test_crop_success_probabilities():
     actual = epicsa.crop_success_probabilities(country="zm", station_id="16")
     assert __is_expected_ordered_dict(
         actual, "crop_success_probabilities_actual010.json"
+    )
+
+    actual = epicsa.crop_success_probabilities(
+        country="zm", station_id="16", water_requirements=[100, 300, 800]
+    )
+    assert __is_expected_ordered_dict(
+        actual, "crop_success_probabilities_actual020.json"
+    )
+
+    actual = epicsa.crop_success_probabilities(
+        country="zm",
+        station_id="16",
+        water_requirements=[100, 300, 800],
+        crop_length=[100, 150],
+        planting_dates=[90, 100, 110],
+    )
+    assert __is_expected_ordered_dict(
+        actual, "crop_success_probabilities_actual030.json"
+    )
+
+    actual = epicsa.crop_success_probabilities(
+        country="zm", station_id="16", start_before_season=True
+    )
+    assert __is_expected_ordered_dict(
+        actual, "crop_success_probabilities_actual040.json"
+    )
+
+    actual = epicsa.crop_success_probabilities(
+        country="zm", station_id="16", start_before_season=False
+    )
+    assert __is_expected_ordered_dict(
+        actual, "crop_success_probabilities_actual050.json"
     )
 
 

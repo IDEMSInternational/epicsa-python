@@ -58,7 +58,13 @@ from rpy2.robjects import (
     pandas2ri,
 )
 from rpy2.robjects.vectors import DataFrame as RDataFrame
-from rpy2.robjects.vectors import FloatVector, IntVector, ListVector, StrVector
+from rpy2.robjects.vectors import (
+    BoolVector,
+    FloatVector,
+    IntVector,
+    ListVector,
+    StrVector,
+)
 
 r_epicsawrap = packages.importr("epicsawrap")
 r_epicsadata = packages.importr("epicsadata")
@@ -109,6 +115,10 @@ def annual_temperature_summaries(
 def crop_success_probabilities(
     country: str,
     station_id: str,
+    water_requirements: List[int] = None,
+    crop_length: List[int] = None,
+    planting_dates: List[int] = None,
+    start_before_season: bool = None,
 ) -> OrderedDict:
     """TODO"""
     __init_data_env()
@@ -116,6 +126,10 @@ def crop_success_probabilities(
     r_list_vector: ListVector = r_epicsawrap.crop_success_probabilities(
         country=r_params["country"],
         station_id=r_params["station_id"],
+        water_requirements=r_params["water_requirements"],
+        crop_length=r_params["crop_length"],
+        planting_dates=r_params["planting_dates"],
+        start_before_season=r_params["start_before_season"],
     )
     return __get_list_vector_as_ordered_dict(r_list_vector)
 
@@ -210,7 +224,7 @@ def __get_python_types(data):
     Returns:
         'data' represented as a collection of Python types.
     """
-    r_array_types = [FloatVector, IntVector]
+    r_array_types = [BoolVector, FloatVector, IntVector]
     r_list_types = [StrVector]
     r_list_vector_types = [ListVector]
     r_data_frame_types = [RDataFrame]
