@@ -44,21 +44,21 @@ Each wrapper function:
     function. If needed, it converts the returned result into a Python data 
     type.
 """
-import numpy, os
+import os
 from collections import OrderedDict
+from typing import Dict, List
+
+import numpy
 from pandas import DataFrame
 from rpy2.robjects import NULL as r_NULL
 from rpy2.robjects import (
     conversion,
     default_converter,
-    globalenv,
     packages,
     pandas2ri,
-    r,
 )
 from rpy2.robjects.vectors import DataFrame as RDataFrame
 from rpy2.robjects.vectors import FloatVector, IntVector, ListVector, StrVector
-from typing import Dict, List
 
 r_epicsawrap = packages.importr("epicsawrap")
 r_epicsadata = packages.importr("epicsadata")
@@ -140,8 +140,7 @@ def monthly_temperature_summaries(
 
 
 def season_start_probabilities(
-    country: str,
-    station_id: str,
+    country: str, station_id: str, start_dates: List[int] = None
 ) -> OrderedDict:
     """TODO"""
     __init_data_env()
@@ -149,6 +148,7 @@ def season_start_probabilities(
     r_list_vector: ListVector = r_epicsawrap.season_start_probabilities(
         country=r_params["country"],
         station_id=r_params["station_id"],
+        start_dates=r_params["start_dates"],
     )
     return __get_list_vector_as_ordered_dict(r_list_vector)
 
@@ -167,13 +167,18 @@ def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
     # convert R data frame to pandas data frame
     with conversion.localconverter(default_converter + pandas2ri.converter):
         data_frame: DataFrame = conversion.get_conversion().rpy2py(r_data_frame)
-    
-    # The converter above converts missing integers to the smallest possible signed 32-bit 
+
+    # The converter above converts missing integers to the smallest possible signed 32-bit
     #   integer (-2147483648). Convert these values to `None` instead
     for col in data_frame.columns:
+        # If this column has a category type, then the next if statement will raise an exception.
+        #    So in this case, continue to next column.
+        if data_frame[col].dtype.name == "category":
+            continue
         if numpy.issubdtype(data_frame[col].dtype, numpy.integer):
-            data_frame[col] = data_frame[col].replace(numpy.iinfo(numpy.int32).min, None)
-
+            data_frame[col] = data_frame[col].replace(
+                numpy.iinfo(numpy.int32).min, None
+            )
     return data_frame
 
 
