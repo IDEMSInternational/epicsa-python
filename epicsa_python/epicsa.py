@@ -44,21 +44,27 @@ Each wrapper function:
     function. If needed, it converts the returned result into a Python data 
     type.
 """
-import numpy, os
+import os
 from collections import OrderedDict
+from typing import Dict, List
+
+import numpy
 from pandas import DataFrame
 from rpy2.robjects import NULL as r_NULL
 from rpy2.robjects import (
     conversion,
     default_converter,
-    globalenv,
     packages,
     pandas2ri,
-    r,
 )
 from rpy2.robjects.vectors import DataFrame as RDataFrame
-from rpy2.robjects.vectors import FloatVector, IntVector, ListVector, StrVector
-from typing import Dict, List
+from rpy2.robjects.vectors import (
+    BoolVector,
+    FloatVector,
+    IntVector,
+    ListVector,
+    StrVector,
+)
 
 r_epicsawrap = packages.importr("epicsawrap")
 r_epicsadata = packages.importr("epicsadata")
@@ -109,18 +115,21 @@ def annual_temperature_summaries(
 def crop_success_probabilities(
     country: str,
     station_id: str,
-    summaries: List[str] = None,
+    water_requirements: List[int] = None,
+    crop_length: List[int] = None,
+    planting_dates: List[int] = None,
+    start_before_season: bool = None,
 ) -> OrderedDict:
     """TODO"""
-    if summaries is None:
-        summaries = ["crops_success"]
-
     __init_data_env()
     r_params: Dict = __get_r_params(locals())
     r_list_vector: ListVector = r_epicsawrap.crop_success_probabilities(
         country=r_params["country"],
         station_id=r_params["station_id"],
-        summaries=r_params["summaries"],
+        water_requirements=r_params["water_requirements"],
+        crop_length=r_params["crop_length"],
+        planting_dates=r_params["planting_dates"],
+        start_before_season=r_params["start_before_season"],
     )
     return __get_list_vector_as_ordered_dict(r_list_vector)
 
@@ -144,6 +153,20 @@ def monthly_temperature_summaries(
     return __get_list_vector_as_ordered_dict(r_list_vector)
 
 
+def season_start_probabilities(
+    country: str, station_id: str, start_dates: List[int] = None
+) -> OrderedDict:
+    """TODO"""
+    __init_data_env()
+    r_params: Dict = __get_r_params(locals())
+    r_list_vector: ListVector = r_epicsawrap.season_start_probabilities(
+        country=r_params["country"],
+        station_id=r_params["station_id"],
+        start_dates=r_params["start_dates"],
+    )
+    return __get_list_vector_as_ordered_dict(r_list_vector)
+
+
 def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
     """Converts an R format data frame into a Python format data frame.
 
@@ -158,16 +181,28 @@ def __get_data_frame(r_data_frame: RDataFrame) -> DataFrame:
     # convert R data frame to pandas data frame
     with conversion.localconverter(default_converter + pandas2ri.converter):
         data_frame: DataFrame = conversion.get_conversion().rpy2py(r_data_frame)
+
+    # The converter above converts missing integers to the smallest possible signed 32-bit
+    #   integer (-2147483648). Convert these values to `None` instead
+    for col in data_frame.columns:
+        # If this column has a category type, then the next if statement will raise an exception.
+        #    So in this case, continue to next column.
+        if data_frame[col].dtype.name == "category":
+            continue
+        if numpy.issubdtype(data_frame[col].dtype, numpy.integer):
+            data_frame[col] = data_frame[col].replace(
+                numpy.iinfo(numpy.int32).min, None
+            )
     return data_frame
 
 
 def __get_list_vector_as_ordered_dict(r_list_vector: ListVector) -> OrderedDict:
     """TODO"""
-    dataframe = __get_data_frame(r_list_vector[1])
+    data_frame = __get_data_frame(r_list_vector[1])
     r_list_as_dict = OrderedDict(
         [
             ("metadata", __get_python_types(r_list_vector[0])),
-            ("data", dataframe),
+            ("data", data_frame),
         ]
     )
     return r_list_as_dict
@@ -189,7 +224,7 @@ def __get_python_types(data):
     Returns:
         'data' represented as a collection of Python types.
     """
-    r_array_types = [FloatVector, IntVector]
+    r_array_types = [BoolVector, FloatVector, IntVector]
     r_list_types = [StrVector]
     r_list_vector_types = [ListVector]
     r_data_frame_types = [RDataFrame]
