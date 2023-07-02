@@ -159,7 +159,7 @@ def test_crop_success_probabilities():
         country="zm",
         station_id="16",
         water_requirements=[100, 300, 800],
-        crop_length=[100, 150],
+        planting_length=[100, 150],
         planting_dates=[90, 100, 110],
     )
     assert __is_expected_ordered_dict(

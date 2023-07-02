@@ -116,7 +116,7 @@ def crop_success_probabilities(
     country: str,
     station_id: str,
     water_requirements: List[int] = None,
-    crop_length: List[int] = None,
+    planting_length: List[int] = None,
     planting_dates: List[int] = None,
     start_before_season: bool = None,
 ) -> OrderedDict:
@@ -127,7 +127,7 @@ def crop_success_probabilities(
         country=r_params["country"],
         station_id=r_params["station_id"],
         water_requirements=r_params["water_requirements"],
-        crop_length=r_params["crop_length"],
+        planting_length=r_params["planting_length"],
         planting_dates=r_params["planting_dates"],
         start_before_season=r_params["start_before_season"],
     )
