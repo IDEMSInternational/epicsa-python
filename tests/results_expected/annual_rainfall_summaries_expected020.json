@@ -1,7 +1,7 @@
 {
     "metadata": {
         "annual_rain": {
-            "total_rain": [
+            "annual_rain": [
                 "TRUE"
             ],
             "n_rain": [
@@ -134,7 +134,7 @@
             "27": "01122",
             "28": "01122"
         },
-        "total_rain": {
+        "annual_rain": {
             "1": 733.7288136102,
             "2": 732.901410792,
             "3": 728.9689654033,
@@ -194,7 +194,7 @@
             "27": 365,
             "28": 365
         },
-        "start_rain": {
+        "start_rains": {
             "1": null,
             "2": null,
             "3": null,
@@ -224,7 +224,7 @@
             "27": null,
             "28": null
         },
-        "end_rain": {
+        "end_rains": {
             "1": null,
             "2": null,
             "3": null,
