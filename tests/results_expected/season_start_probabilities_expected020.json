@@ -2,16 +2,13 @@
     "metadata": {
         "start_rains": {
             "threshold": [
-                0.85
+                1
             ],
             "start_day": [
-                92
+                1
             ],
             "end_day": [
-                150
-            ],
-            "output": [
-                "date"
+                366
             ],
             "total_rainfall": [
                 "TRUE"
@@ -35,7 +32,7 @@
                 10
             ],
             "spell_interval": [
-                30
+                21
             ],
             "dry_period": [
                 "FALSE"
@@ -59,33 +56,17 @@
         }
     },
     "data": {
-        "station": {
-            "1": "CHIPATA MET",
-            "2": "LUNDAZI MET",
-            "3": "MFUWE MET",
-            "4": "MSEKERA AGROMET",
-            "5": "PETAUKE MET"
+        "station_name": {
+            "1": "LUNDAZI MET"
         },
         "proportion_10": {
-            "1": 0.0,
-            "2": 0.0,
-            "3": 0.0,
-            "4": 0.0,
-            "5": 0.0
+            "1": 0.6567164179
         },
         "proportion_20": {
-            "1": 0.0,
-            "2": 0.0,
-            "3": 0.0,
-            "4": 0.0,
-            "5": 0.0
+            "1": 0.8059701493
         },
         "proportion_100": {
-            "1": 0.0,
-            "2": 0.0447761194,
-            "3": 0.0,
-            "4": 0.0,
-            "5": 0.0
+            "1": 0.8358208955
         }
     }
 }

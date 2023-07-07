@@ -112,7 +112,7 @@ def test_annual_rainfall_summaries():
     actual = epicsa.annual_rainfall_summaries(
         country="zm",
         station_id="16",
-        summaries=["start_rains", "end_rains", "annual_rain", "seasonal_length"],
+        summaries=["start_rains", "end_rains", "annual_rain", "seasonal_rain"],
     )
     assert __is_expected_ordered_dict(
         actual, "annual_rainfall_summaries_actual040.json"
@@ -121,7 +121,13 @@ def test_annual_rainfall_summaries():
     actual = epicsa.annual_rainfall_summaries(
         country="zm",
         station_id="16",
-        summaries=["start_rains", "end_rains", "annual_rain", "end_season"],
+        summaries=[
+            "start_rains",
+            "end_rains",
+            "annual_rain",
+            "seasonal_rain",
+            "end_season",
+        ],
     )
     assert __is_expected_ordered_dict(
         actual, "annual_rainfall_summaries_actual050.json"
@@ -182,8 +188,20 @@ def test_crop_success_probabilities():
 
 
 def test_monthly_temperature_summaries():
+    actual = epicsa.monthly_temperature_summaries(country="zm", station_id="33")
+    assert __is_expected_ordered_dict(
+        actual, "monthly_temperature_summaries_actual010.json"
+    )
+
+    # actual = epicsa.monthly_temperature_summaries(
+    #     country="zm", station_id="33", summaries=["mean_tmin"]
+    # )
+    # assert __is_expected_ordered_dict(
+    #     actual, "monthly_temperature_summaries_actual020.json"
+    # )
+
     actual = epicsa.monthly_temperature_summaries(
-        country="zm", station_id="16", summaries=["mean_tmin"]
+        country="zm", station_id="33", summaries=["mean_tmin", "mean_tmax"]
     )
     assert __is_expected_ordered_dict(
         actual, "monthly_temperature_summaries_actual010.json"
